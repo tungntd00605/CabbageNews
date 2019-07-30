@@ -144,4 +144,89 @@ public class Article {
     public void setStatus(int status) {
         this.status = status;
     }
+
+    public static final class Builder {
+        private Long id;
+        private String url;
+        private String title;
+        private String description;
+        private String content;
+        private String author;
+        private long createdAtMLS;
+        private long updatedAtMLS;
+        private long deletedAtMLS;
+        private int status;
+
+        private Builder() {
+        }
+
+        public static Builder anArticle() {
+            return new Builder();
+        }
+
+        public Builder withId(Long id) {
+            this.id = id;
+            return this;
+        }
+
+        public Builder withUrl(String url) {
+            this.url = url;
+            return this;
+        }
+
+        public Builder withTitle(String title) {
+            this.title = title;
+            return this;
+        }
+
+        public Builder withDescription(String description) {
+            this.description = description;
+            return this;
+        }
+
+        public Builder withContent(String content) {
+            this.content = content;
+            return this;
+        }
+
+        public Builder withAuthor(String author) {
+            this.author = author;
+            return this;
+        }
+
+        public Builder withCreatedAtMLS(long createdAtMLS) {
+            this.createdAtMLS = createdAtMLS;
+            return this;
+        }
+
+        public Builder withUpdatedAtMLS(long updatedAtMLS) {
+            this.updatedAtMLS = updatedAtMLS;
+            return this;
+        }
+
+        public Builder withDeletedAtMLS(long deletedAtMLS) {
+            this.deletedAtMLS = deletedAtMLS;
+            return this;
+        }
+
+        public Builder withStatus(int status) {
+            this.status = status;
+            return this;
+        }
+
+        public Article build() {
+            Article article = new Article();
+            article.setId(id);
+            article.setUrl(url);
+            article.setTitle(title);
+            article.setDescription(description);
+            article.setContent(content);
+            article.setAuthor(author);
+            article.setCreatedAtMLS(createdAtMLS);
+            article.setUpdatedAtMLS(updatedAtMLS);
+            article.setDeletedAtMLS(deletedAtMLS);
+            article.setStatus(status);
+            return article;
+        }
+    }
 }
