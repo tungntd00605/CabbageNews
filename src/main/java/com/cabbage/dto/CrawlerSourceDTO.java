@@ -14,6 +14,8 @@ public class CrawlerSourceDTO {
     private String descriptionSelector;
     private String contentSelector;
     private String authorSelector;
+    private String thumbnailSelector;
+    private Long categoryId;
     private int status;
 
     public CrawlerSourceDTO() {
@@ -28,6 +30,8 @@ public class CrawlerSourceDTO {
         this.descriptionSelector = crawlerSource.getDescriptionSelector();
         this.contentSelector = crawlerSource.getContentSelector();
         this.authorSelector = crawlerSource.getAuthorSelector();
+        this.thumbnailSelector = crawlerSource.getThumbnailSelector();
+        this.categoryId = crawlerSource.getCategoryId();
         this.status = crawlerSource.getStatus();
     }
 
@@ -93,6 +97,22 @@ public class CrawlerSourceDTO {
 
     public void setAuthorSelector(String authorSelector) {
         this.authorSelector = authorSelector;
+    }
+
+    public String getThumbnailSelector() {
+        return thumbnailSelector;
+    }
+
+    public void setThumbnailSelector(String thumbnailSelector) {
+        this.thumbnailSelector = thumbnailSelector;
+    }
+
+    public Long getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(Long categoryId) {
+        this.categoryId = categoryId;
     }
 
     public int getStatus() {

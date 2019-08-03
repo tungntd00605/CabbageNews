@@ -6,9 +6,10 @@ public class ArticleDTO {
     private Long id;
     private String url;
     private String title;
-    private Category category;
+    private CategoryDTO category;
     private String description;
     private String content;
+    private String thumbnail;
     private String author;
     private CrawlerSourceDTO crawlerSource;
     private int status;
@@ -37,11 +38,11 @@ public class ArticleDTO {
         this.title = title;
     }
 
-    public Category getCategory() {
+    public CategoryDTO getCategory() {
         return category;
     }
 
-    public void setCategory(Category category) {
+    public void setCategory(CategoryDTO category) {
         this.category = category;
     }
 
@@ -59,6 +60,14 @@ public class ArticleDTO {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public String getThumbnail() {
+        return thumbnail;
+    }
+
+    public void setThumbnail(String thumbnail) {
+        this.thumbnail = thumbnail;
     }
 
     public String getAuthor() {

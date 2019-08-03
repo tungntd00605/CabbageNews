@@ -1,6 +1,7 @@
 package com.cabbage.entity;
 
 import com.cabbage.dto.ArticleDTO;
+import com.googlecode.objectify.Key;
 import com.googlecode.objectify.Ref;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
@@ -20,6 +21,7 @@ public class Article {
     private Ref<Category> category;
     private String description;
     private String content;
+    private String thumbnail;
     @Index
     private String author;
     @Index
@@ -38,7 +40,7 @@ public class Article {
         this.id = dto.getId();
         this.url = dto.getUrl();
         this.title = dto.getTitle();
-        this.category = Ref.create(dto.getCategory());
+        this.category = Ref.create(Key.create(Category.class, dto.getCrawlerSource().getCategoryId()));
         this.description = dto.getDescription();
         this.content = dto.getContent();
         this.author = dto.getAuthor();
@@ -95,6 +97,14 @@ public class Article {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public String getThumbnail() {
+        return thumbnail;
+    }
+
+    public void setThumbnail(String thumbnail) {
+        this.thumbnail = thumbnail;
     }
 
     public String getAuthor() {

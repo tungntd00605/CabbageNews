@@ -22,6 +22,8 @@ public class CrawlerSource {
     private String descriptionSelector;
     private String contentSelector;
     private String authorSelector;
+    private String thumbnailSelector;
+    private Long categoryId;
     private List<Ref<Article>> articles;
     private long createdAtMLS;
     private long updatedAtMLS;
@@ -45,6 +47,8 @@ public class CrawlerSource {
         this.descriptionSelector = dto.getDescriptionSelector();
         this.contentSelector = dto.getContentSelector();
         this.authorSelector = dto.getAuthorSelector();
+        this.thumbnailSelector = dto.getThumbnailSelector();
+        this.categoryId = dto.getCategoryId();
         this.createdAtMLS = Calendar.getInstance().getTimeInMillis();
         this.updatedAtMLS = Calendar.getInstance().getTimeInMillis();
         this.status = 1;
@@ -114,6 +118,22 @@ public class CrawlerSource {
         this.authorSelector = authorSelector;
     }
 
+    public String getThumbnailSelector() {
+        return thumbnailSelector;
+    }
+
+    public void setThumbnailSelector(String thumbnailSelector) {
+        this.thumbnailSelector = thumbnailSelector;
+    }
+
+    public Long getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(Long categoryId) {
+        this.categoryId = categoryId;
+    }
+
     public List<Article> getArticles() {
         List<Article> listArticle = new ArrayList<>();
         for (Ref<Article> arc: articles) {
@@ -160,5 +180,118 @@ public class CrawlerSource {
 
     public void setStatus(int status) {
         this.status = status;
+    }
+
+    public static final class Builder {
+        private Long id;
+        private String url;
+        private String linkSelector;
+        private int linkLimit;
+        private String titleSelector;
+        private String descriptionSelector;
+        private String contentSelector;
+        private String authorSelector;
+        private String thumbnailSelector;
+        private Long categoryId;
+        private long createdAtMLS;
+        private long updatedAtMLS;
+        private long deletedAtMLS;
+        private int status;
+
+        private Builder() {
+        }
+
+        public static Builder aCrawlerSource() {
+            return new Builder();
+        }
+
+        public Builder withId(Long id) {
+            this.id = id;
+            return this;
+        }
+
+        public Builder withUrl(String url) {
+            this.url = url;
+            return this;
+        }
+
+        public Builder withLinkSelector(String linkSelector) {
+            this.linkSelector = linkSelector;
+            return this;
+        }
+
+        public Builder withLinkLimit(int linkLimit) {
+            this.linkLimit = linkLimit;
+            return this;
+        }
+
+        public Builder withTitleSelector(String titleSelector) {
+            this.titleSelector = titleSelector;
+            return this;
+        }
+
+        public Builder withDescriptionSelector(String descriptionSelector) {
+            this.descriptionSelector = descriptionSelector;
+            return this;
+        }
+
+        public Builder withContentSelector(String contentSelector) {
+            this.contentSelector = contentSelector;
+            return this;
+        }
+
+        public Builder withAuthorSelector(String authorSelector) {
+            this.authorSelector = authorSelector;
+            return this;
+        }
+
+        public Builder withThumbnailSelector(String thumbnailSelector) {
+            this.thumbnailSelector = thumbnailSelector;
+            return this;
+        }
+
+        public Builder withCategoryId(Long categoryId) {
+            this.categoryId = categoryId;
+            return this;
+        }
+
+        public Builder withCreatedAtMLS(long createdAtMLS) {
+            this.createdAtMLS = createdAtMLS;
+            return this;
+        }
+
+        public Builder withUpdatedAtMLS(long updatedAtMLS) {
+            this.updatedAtMLS = updatedAtMLS;
+            return this;
+        }
+
+        public Builder withDeletedAtMLS(long deletedAtMLS) {
+            this.deletedAtMLS = deletedAtMLS;
+            return this;
+        }
+
+        public Builder withStatus(int status) {
+            this.status = status;
+            return this;
+        }
+
+        public CrawlerSource build() {
+            CrawlerSource crawlerSource = new CrawlerSource();
+            crawlerSource.setId(id);
+            crawlerSource.setUrl(url);
+            crawlerSource.setLinkSelector(linkSelector);
+            crawlerSource.setLinkLimit(linkLimit);
+            crawlerSource.setTitleSelector(titleSelector);
+            crawlerSource.setDescriptionSelector(descriptionSelector);
+            crawlerSource.setContentSelector(contentSelector);
+            crawlerSource.setAuthorSelector(authorSelector);
+            crawlerSource.setThumbnailSelector(thumbnailSelector);
+            crawlerSource.setCategoryId(categoryId);
+            crawlerSource.setCreatedAtMLS(createdAtMLS);
+            crawlerSource.setUpdatedAtMLS(updatedAtMLS);
+            crawlerSource.setDeletedAtMLS(deletedAtMLS);
+            crawlerSource.setStatus(status);
+            return crawlerSource;
+        }
     }
 }

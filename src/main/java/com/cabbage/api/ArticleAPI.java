@@ -3,6 +3,7 @@ package com.cabbage.api;
 import com.cabbage.dto.ArticleDTO;
 import com.cabbage.entity.Article;
 import com.cabbage.entity.CrawlerSource;
+import com.cabbage.servlet.admin.AddCrawlerSourceServlet;
 import com.cabbage.utils.StringUtil;
 import com.google.gson.Gson;
 
@@ -13,10 +14,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
+import java.util.logging.Logger;
 
 import static com.googlecode.objectify.ObjectifyService.ofy;
 
 public class ArticleAPI extends HttpServlet {
+    private static final Logger LOGGER = Logger.getLogger(ArticleAPI.class.getSimpleName());
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Article> articles = ofy().load().type(Article.class).list();
