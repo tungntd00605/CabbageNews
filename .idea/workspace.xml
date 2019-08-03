@@ -7,33 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f7c31f-f320-4a2c-8821-c11650ed8e32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CabbageNews_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CabbageNews_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CabbageNews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CabbageNews.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-generated/local_db.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/api/ArticleAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/api/ArticleAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/api/SourceAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/api/SourceAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/dto/ArticleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/dto/ArticleDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/dto/CrawlerSourceDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/dto/CrawlerSourceDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/entity/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/entity/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/entity/CrawlerSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/entity/CrawlerSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/filter/MyObjectifyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/filter/MyObjectifyFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/api/ArticleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/api/ArticleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/api/SourceAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/api/SourceAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/dto/ArticleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/dto/ArticleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/dto/CrawlerSourceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/dto/CrawlerSourceDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/entity/CrawlerSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/entity/CrawlerSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/filter/MyObjectifyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/filter/MyObjectifyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/CategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCategoryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/client/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/api/CheckDuplicateArticleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/api/CheckDuplicateArticleAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TryHarder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TryHarder/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TryHarder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TryHarder/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TryHarder/src/main/resource/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TryHarder/src/main/resource/application.properties" afterDir="false" />
@@ -68,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/api/CheckDuplicateArticleAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="493">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,15 +89,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/5.1.22/objectify-5.1.22.jar!/com/googlecode/objectify/cmd/QueryExecute.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCrawlerSourceServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -134,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -148,6 +114,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/api/SourceAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="34" column="72" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,11 +188,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCrawlerSourceServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/api/SourceAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/api/ArticleAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cabbage/api/CheckDuplicateArticleAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/client/HomeServlet.java" />
         <option value="$PROJECT_DIR$/web/client/home.jsp" />
         <option value="$PROJECT_DIR$/web/admin/crawler-source/special-content.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabbage/api/CheckDuplicateArticleAPI.java" />
       </list>
     </option>
   </component>
@@ -403,7 +381,7 @@
     <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="543189532651" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564795305614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564796863155" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -446,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google App Engine Standard Local Server.Google App Engine Standard Local Server18">
+  <component name="RunManager" selected="Google App Engine Deployment.Google App Engine Deployment">
     <configuration name="Google Stackdriver Debug" type="GCPDebug" factoryName="Google Stackdriver Debug">
       <method v="2" />
     </configuration>
@@ -543,17 +521,18 @@
       <workItem from="1564469981061" duration="148000" />
       <workItem from="1564488708769" duration="2249000" />
       <workItem from="1564657977650" duration="1205000" />
-      <workItem from="1564777720459" duration="14975000" />
+      <workItem from="1564777720459" duration="16360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36771000" />
+    <option name="totallyTimeSpent" value="38156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -563,13 +542,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Application Servers" order="7" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
@@ -837,16 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/api/SourceAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/5.1.22/objectify-5.1.22.jar!/com/googlecode/objectify/LoadResult.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -865,16 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="27" column="43" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/api/CheckDuplicateArticleAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -936,6 +895,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/api/SourceAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="34" column="72" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/api/CheckDuplicateArticleAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
