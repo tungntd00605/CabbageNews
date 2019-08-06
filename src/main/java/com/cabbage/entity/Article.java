@@ -44,6 +44,7 @@ public class Article {
         this.description = dto.getDescription();
         this.content = dto.getContent();
         this.author = dto.getAuthor();
+        this.thumbnail = dto.getThumbnail();
         this.crawlerSource = Ref.create(new CrawlerSource(dto.getCrawlerSource()));
         this.createdAtMLS = Calendar.getInstance().getTimeInMillis();
         this.updatedAtMLS = Calendar.getInstance().getTimeInMillis();
