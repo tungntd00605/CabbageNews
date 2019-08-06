@@ -33,6 +33,7 @@
     <!-- END API SERVLET-->
 
     <!-- START ADMIN SERVLET-->
+
     <servlet>
         <servlet-name>AddCategoryServlet</servlet-name>
         <servlet-class>com.cabbage.servlet.admin.AddCategoryServlet</servlet-class>

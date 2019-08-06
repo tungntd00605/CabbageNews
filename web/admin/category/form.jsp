@@ -6,11 +6,26 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Category form</title>
-</head>
-<body>
+<%--<html>--%>
+<%--<head>--%>
+<%--    <title>Category form</title>--%>
+<%--</head>--%>
+<%--<body>--%>
+
+<%--Include header admin--%>
+<jsp:include page="/admin/include/header.jsp">
+    <jsp:param name="a" value="Hello"/>
+</jsp:include>
+
+<%--Include left-menu admin--%>
+<jsp:include page="/admin/include/left-menu.jsp">
+    <jsp:param name="a" value="Hello"/>
+</jsp:include>
+
+<%--include nave bar menu--%>
+<jsp:include page="/admin/include/navbar-menu.jsp"/>
+
+<div class="right-panel">
     <h1>Category form</h1>
     <form action="/admin/category/add" method="post">
         <div>
@@ -24,6 +39,6 @@
             <input type="reset" value="Reset">
         </div>
     </form>
+</div>
 
-</body>
-</html>
+<jsp:include page="/admin/include/footer.jsp"/>
