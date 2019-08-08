@@ -13,14 +13,11 @@
 <%--<body>--%>
 
 <%--Include header admin--%>
-<jsp:include page="/admin/include/header.jsp">
-    <jsp:param name="a" value="Hello"/>
-</jsp:include>
+<jsp:include page="/admin/include/header.jsp"/>
 
 <%--Include left-menu admin--%>
-<jsp:include page="/admin/include/left-menu.jsp">
-    <jsp:param name="a" value="Hello"/>
-</jsp:include>
+<jsp:include page="/admin/include/left-menu.jsp"/>
+
 
 <%--include nave bar menu--%>
 <jsp:include page="/admin/include/navbar-menu.jsp"/>
