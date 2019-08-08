@@ -32,9 +32,9 @@
                 <form action="/admin/article/add" method="post" enctype="multipart/form-data" class="form-horizontal">
 
                     <div class="row form-group">
-                        <div class="col col-md-3"><label for="text-input" class=" form-control-label">Slug</label>
+                        <div class="col col-md-3"><label class=" form-control-label">Slug</label>
                         </div>
-                        <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input"
+                        <div class="col-12 col-md-9"><input type="text" id="text-input" name="url"
                                                             placeholder="Text" class="form-control">
                         </div>
                     </div>
@@ -58,7 +58,7 @@
 
                     <div class="row form-group">
                         <div class="col col-md-3"><label class=" form-control-label">Description</label></div>
-                        <div class="col-12 col-md-9"><input type="text" name="title" placeholder="Enter Description"
+                        <div class="col-12 col-md-9"><input type="text" name="description" placeholder="Enter Description"
                                                             class="form-control">
                         </div>
                     </div>
