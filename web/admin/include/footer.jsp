@@ -45,15 +45,13 @@
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.js"></script>
 <script src="/assets/js/init/fullcalendar-init.js"></script>
 
-
 <script>
     ClassicEditor
-        .create( document.querySelector( '#editor' ) )
-        .catch( (error) => {
+        .create( document.querySelector( '#article-editor' ) )
+        .catch( function(err) {
             console.log( error );
         } );
 </script>
-
 
 <!--Local Stuff-->
 <script>

@@ -39,6 +39,8 @@
     <link href="https://cdn.jsdelivr.net/npm/weathericons@2.1.0/css/weather-icons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.css" rel="stylesheet" />
 
+    <script src="https://cdn.ckeditor.com/ckeditor5/12.3.1/classic/ckeditor.js"></script>
+
     <style>
         #weatherWidget .currentDesc {
             color: #ffffff!important;
@@ -75,5 +77,51 @@
         }
 
     </style>
+
+    <script>
+        // A $( document ).ready() block.
+        $(document).ready(function () {
+            $('#btn-preview').click(function () {
+                var data = {
+                    "url": $('input[name="url"]').val(),
+                    "titleSelector": $('input[name="titleSelector"]').val(),
+                    "contentSelector": $('input[name="contentSelector"]').val()
+                }
+                $.ajax({
+                    "url": "http://localhost:8080/admin/crawler-source/special-content",
+                    "method": "post",
+                    "data": JSON.stringify(data),
+                    "success": function (responseData) {
+                        $('#article-title').text(responseData.title);
+                        $('#article-content').html(responseData.content);
+                        $('#preview-modal').modal('show');
+                    },
+                    "error": function () {
+                        console.log("Error.");
+                    }
+                });
+            });
+            $('#btn-save').click(function () {
+                var data = {
+                    "url": $('input[name="url"]').val(),
+                    "title": $('#article-title').text(),
+                    "content": $('#article-content').html()
+                }
+                $.ajax({
+                    "url": "http://localhost:8080/admin/crawler-source/save-special-content",
+                    "method": "post",
+                    "data": JSON.stringify(data),
+                    "success": function (responseData) {
+                        alert('Save success!');
+                        $('#preview-modal').modal('hide');
+                    },
+                    "error": function () {
+                        console.log("Error.");
+                    }
+                });
+            });
+        });
+    </script>
+
 </head>
 

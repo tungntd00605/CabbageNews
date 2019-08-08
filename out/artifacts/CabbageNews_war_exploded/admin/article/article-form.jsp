@@ -64,12 +64,13 @@
                     </div>
 
                     <div class="row form-group">
-                        <div class="col col-md-3"><label for="textarea-input"
-                                                         class=" form-control-label">Content</label></div>
-                        <div class="col-12 col-md-9"><textarea name="textarea-input" id="textarea-input" rows="9"
-                                                               placeholder="Content..." class="form-control"></textarea>
+                        <div class="col col-md-3"><label class=" form-control-label">Content</label></div>
+                        <div class="col-12 col-md-9">
+                            <textarea class="col-lg-12" name="content" id="article-editor" placeholder="Content....."></textarea>
                         </div>
+
                     </div>
+
 
                     <div class="row form-group">
                         <div class="col col-md-3"><label for="file-input" class=" form-control-label">Thumbnail</label>
@@ -90,3 +91,5 @@
         </div>
     </div>
 </div>
+
+<jsp:include page="/admin/include/footer.jsp"/>

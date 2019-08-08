@@ -69,6 +69,23 @@
         <servlet-name>AddCrawlerSourceServlet</servlet-name>
         <url-pattern>/admin/crawler-source/add</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PreviewSpecialServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.PreviewSpecialServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PreviewSpecialServlet</servlet-name>
+        <url-pattern>/admin/crawler-source/special-content</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SaveSpecialContentServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.SaveSpecialContentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveSpecialContentServlet</servlet-name>
+        <url-pattern>/admin/crawler-source/save-special-content</url-pattern>
+    </servlet-mapping>
     <!-- END ADMIN SERVLET-->
 
     <!-- START CLIENT SERVLET-->

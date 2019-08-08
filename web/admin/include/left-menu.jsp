@@ -22,6 +22,10 @@
                             class="menu-icon fa fa-plus"></i>Create Article</a>
                 </li>
                 <li class="#">
+                    <a href="/admin/crawler-source/special-content.jsp" class="#" aria-expanded="false"><i
+                            class="menu-icon fa fa-plus"></i>Special Content</a>
+                </li>
+                <li class="#">
                     <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-list-ul"></i>List
                         Article</a>
                 </li>
