@@ -81,8 +81,32 @@
         <url-pattern>/</url-pattern>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
-    <!-- END CLIENT SERVLET-->
 
+    <servlet>
+        <servlet-name>ReadCategoryServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.ReadCategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadCategoryServlet</servlet-name>
+        <url-pattern>/categories</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListArticelServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.ListArticelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListArticelServlet</servlet-name>
+        <url-pattern>/listArticel</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListCrawlerServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.ListCrawlerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListCrawlerServlet</servlet-name>
+        <url-pattern>/listCrawler</url-pattern>
+    </servlet-mapping>
+    <!-- END CLIENT SERVLET-->
     <filter>
         <filter-name>ObjectifyFilter</filter-name>
         <filter-class>com.googlecode.objectify.ObjectifyFilter</filter-class>

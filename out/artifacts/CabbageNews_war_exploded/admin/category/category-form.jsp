@@ -14,29 +14,10 @@
 
 <%--Include header admin--%>
 <jsp:include page="/admin/include/header.jsp"/>
-
 <%--Include left-menu admin--%>
 <jsp:include page="/admin/include/left-menu.jsp"/>
-
-
 <%--include nave bar menu--%>
 <jsp:include page="/admin/include/navbar-menu.jsp"/>
-
-<%--<div class="right-panel">--%>
-<%--    <h1>Category form</h1>--%>
-<%--    <form action="/admin/category/add" method="post">--%>
-<%--        <div>--%>
-<%--            Name <input type="text" name="name">--%>
-<%--        </div>--%>
-<%--        <div>--%>
-<%--            Description <input type="text" name="description">--%>
-<%--        </div>--%>
-<%--        <div>--%>
-<%--            <input type="submit" value="Submit">--%>
-<%--            <input type="reset" value="Reset">--%>
-<%--        </div>--%>
-<%--    </form>--%>
-<%--</div>--%>
 
 <div class="right-panel">
     <div class="col-lg-9" style="margin-left: 150px;">
@@ -54,7 +35,6 @@
                                                             placeholder="Text" class="form-control">
                         </div>
                     </div>
-
                     <div class="row form-group">
                         <div class="col col-md-3"><label class=" form-control-label">Description</label></div>
                         <div class="col-12 col-md-9"><input type="text" name="title" placeholder="Enter Description"

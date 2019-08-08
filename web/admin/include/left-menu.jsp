@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: NguyenCongJP
-  Date: 8/5/2019
-  Time: 10:49 PM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!-- Left Panel -->
 <aside id="left-panel" class="left-panel">
@@ -14,7 +8,6 @@
                 <li class="active">
                     <a href="/admin/include/index.jsp"><i class="menu-icon fa fa-laptop"></i>Dashboard </a>
                 </li>
-
                 <%--Quản Lý Article--%>
                 <li class="menu-title">Article</li><!-- /.menu-title -->
                 <li class="#">
