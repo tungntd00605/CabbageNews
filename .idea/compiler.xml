@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CabbageNews" />
+        <module name="Marquee" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CabbageNews" target="8" />
+      <module name="Marquee" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

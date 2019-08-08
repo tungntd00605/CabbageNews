@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cabbagenews",
+  "private_key_id": "ae97dd033df85d25e068f6140d9e3fd369553dda",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIpJ3zeUociUvU\ngZc82apA9SeH+8RgJPaxuXLGDpMQ28hHvGNXrLXkNATiY1o0rJ/QARip2uON+oJK\nK5qXl7wyYDfsjc1EEvHSgdX7R8VwdY/G9elH8LbnrxiG/Djc6VqUXYfHDmLdBFPO\nRJqUtUR/1WWf3saKG4i0DC8NRpOYwOWXZ7izqlLItlICJ7MHOroFa87IJwqQjfaG\ncEtbk1lh07+qe4znzGHmoOZIwD1JzrPrBGDYPJAtpa7gzz1rCwJHwkc+2k2GnUdn\nvWeSg6WmAmpZJWJApZ5PDyoq4SkMA1/t+88r69VnhuuKSAtT4Nd73xgCfhdhMlP0\nOJkJOxv/AgMBAAECggEAUjIeAwBNPCOCzSvJqUQCW1oTN8IMUNbTuTsfqcOOu/lN\nsxWaHPDEExi8Z4IMEkglsDDCydLCJgfaGEiErFWc44ZHYsE0tg6MwpAt+SMN32RJ\n4lgbmT0jsQYqJiJtqRJv6Rfn58Qc/C4ppvaz3Pfld/kUCMpay3k8J4ZWQDoJfSnP\nMxczsO08oBtoXkx+P1OYrW8a33vLbblQguAOrY5t145Szk8kn873Tu3NXNZbP38Z\nPD2nM4qbObyYN/+5JzgY93vuCro8GxkELTDYckIcA9XIrNxUtjlceM1Kx63B2Oig\nAvc2zp1uCJjLOsyqb59FpfH6Dqi1Pa3geoLK8QYyAQKBgQDjYmVENV1n6in4mJt6\nHrAiBuh1ceD2LwXH0qrLL21V4F8mjMFUr8sa4XjQA/T+BC7OdNES6hJpbzJmXYmo\nMkfF/lVU/KZpKyl0KqE2XyGZsBw+BefQHa9T9EE9Sh8jbhrxdUP0VMdlSmimI2+B\nS+KRVGgx/plWkml7dMI0lNok5wKBgQDh5LNc69TfwfFDzvSbp/1lo4L28pY5NdqV\nQreaSI1+uBwDVO+9uJS80YqtgmTM8mEcH6G6FfdcGXSjPmPujqS4oRo0aEOxgMgL\n7swyFiSUmZTj/Dtrg410Se3t5gQkrRB4bh9aBaIudFGl8IjaAmiPVZ5CdkoEfBDf\nb5CUx9HVKQKBgQCGTnouHa88T83Wrp03NqUmlBn+NPOBtiid7MtBFJRqIwtQw9b1\n5Jf9Gqy3gX7WAzZ6b/mGSIfziuCkIh/LH1fRlPZmKo1IlVv4560tZmd8Vc94uxg/\njykeV6mpP/zAeqqjcHZg/SqBo7/IUinsnxwGZ2rcDNwZjIWNjFuhn0JyhQKBgC7w\nSNz8HCXKtQl0DZvyklL2YRZTXifRKvRtAp3KiaxVMWz3z0FLA40gtYJMYAm+K7Oe\nVwrF2bqHh5cMNdOyTEQZJcrSB47wxaDFJCUcOMmwCCI/nVE/6rrJSelvLFk6pPuB\nVn5sQUEJ5pVmn+k9KuDt147T6Zl49kCXfCGOS+nRAoGBAJBEQ3ZgGLZykQGaQfvr\n3dpXCaSyjoQ4Z3fwjEt8nirKCMgOzVA2lnJh24i+yWWWTQuTDHOTVuR/aZGRc11+\n53ZoMVr5QZBJ9nKLusN44kgQiHh+JVWh2o1FeTCXbOtH5CXOjwGqymGQ2GXOtKqK\nBL6Vp3Ru0Fz3d/lmhhw3Pamq\n-----END PRIVATE KEY-----\n",
+  "client_email": "cabbagenews@appspot.gserviceaccount.com",
+  "client_id": "103695351664595303595",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cabbagenews%40appspot.gserviceaccount.com"
+}

@@ -6,7 +6,7 @@
     <!-- START API SERVLET-->
     <servlet>
         <servlet-name>ArticleAPI</servlet-name>
-        <servlet-class>com.cabbage.api.ArticleAPI</servlet-class>
+        <servlet-class>com.quanganh9x.marquee.api.ArticleAPI</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ArticleAPI</servlet-name>
@@ -15,7 +15,7 @@
 
     <servlet>
         <servlet-name>CheckDuplicateArticleAPI</servlet-name>
-        <servlet-class>com.cabbage.api.CheckDuplicateArticleAPI</servlet-class>
+        <servlet-class>com.quanganh9x.marquee.api.CheckDuplicateArticleAPI</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CheckDuplicateArticleAPI</servlet-name>
@@ -24,7 +24,7 @@
 
     <servlet>
         <servlet-name>CrawlerSourceAPI</servlet-name>
-        <servlet-class>com.cabbage.api.SourceAPI</servlet-class>
+        <servlet-class>com.quanganh9x.marquee.api.SourceAPI</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CrawlerSourceAPI</servlet-name>
@@ -35,7 +35,7 @@
     <!-- START ADMIN SERVLET-->
     <servlet>
         <servlet-name>AddCategoryServlet</servlet-name>
-        <servlet-class>com.cabbage.servlet.admin.AddCategoryServlet</servlet-class>
+        <servlet-class>com.quanganh9x.marquee.servlet.admin.AddCategoryServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddCategoryServlet</servlet-name>
@@ -44,7 +44,7 @@
 
     <servlet>
         <servlet-name>AddCrawlerSourceServlet</servlet-name>
-        <servlet-class>com.cabbage.servlet.admin.AddCrawlerSourceServlet</servlet-class>
+        <servlet-class>com.quanganh9x.marquee.servlet.admin.AddCrawlerSourceServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddCrawlerSourceServlet</servlet-name>
@@ -55,14 +55,29 @@
     <!-- START CLIENT SERVLET-->
     <servlet>
         <servlet-name>HomeServlet</servlet-name>
-        <servlet-class>com.cabbage.servlet.client.HomeServlet</servlet-class>
+        <servlet-class>com.quanganh9x.marquee.servlet.client.HomeServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HomeServlet</servlet-name>
         <url-pattern>/</url-pattern>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>BoxCategoryWidget</servlet-name>
+        <servlet-class>com.quanganh9x.marquee.servlet.client.widget.BoxCategoryWidget</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BoxCategoryWidget</servlet-name>
+        <url-pattern>/widget/boxCategory</url-pattern>
+    </servlet-mapping>
     <!-- END CLIENT SERVLET-->
+
+
+    <!-- ASSETS -->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/assets/*</url-pattern>
+    </servlet-mapping>
 
     <filter>
         <filter-name>ObjectifyFilter</filter-name>
@@ -75,10 +90,18 @@
 
     <filter>
         <filter-name>MyObjectifyFilter</filter-name>
-        <filter-class>com.cabbage.filter.MyObjectifyFilter</filter-class>
+        <filter-class>com.quanganh9x.marquee.filter.ObjectifyFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>MyObjectifyFilter</filter-name>
         <url-pattern>*</url-pattern>
     </filter-mapping>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/CabbageNews.json</param-value>
+    </context-param>
+    <listener>
+        <listener-class>com.quanganh9x.marquee.listener.ObjectifyListener</listener-class>
+    </listener>
 </web-app>
