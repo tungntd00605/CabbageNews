@@ -10,18 +10,33 @@
       <change afterPath="$PROJECT_DIR$/../demo-gae/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CabbageNews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CabbageNews.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/servlet/client/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/servlet/client/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-generated/local_db.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/appengine-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/servlet/admin/AddCategoryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/servlet/admin/AddCategoryServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/servlet/admin/AddCrawlerSourceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/classes/com/cabbage/servlet/admin/AddCrawlerSourceServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/category/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/category/form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/client/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/client/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/client/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/client/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/category/form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/left-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/left-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/navbar-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/navbar-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/right-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/admin/include/right-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/assets/images/admin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CabbageNews_war_exploded/assets/images/admin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCategoryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCrawlerSourceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCrawlerSourceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/client/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/client/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/category/category-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/category-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/crawler-source/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/crawler-source/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/include/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/include/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/include/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/include/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/include/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/include/left-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/include/left-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/include/navbar-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/include/navbar-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/include/right-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/include/right-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/admin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/images/admin.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Asm_Crawl_Data/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Asm_Crawl_Data/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Asm_Crawl_Data/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Asm_Crawl_Data/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DemoGC" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoGC" afterDir="false" />
@@ -46,33 +61,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/admin/include/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="400">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/category/form.jsp">
+        <entry file="file://$PROJECT_DIR$/web/admin/category/category-form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="129">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/admin/crawler-source/form.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-460">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/admin/include/left-menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="840">
+              <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/article/article-form.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="90" column="10" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="90" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/admin/include/footer.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -80,8 +128,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,6 +148,10 @@
       <find>card</find>
       <find>card-body</find>
       <find>scss</find>
+      <find>admin</find>
+      <find>todo</find>
+      <find>Disabled</find>
+      <find>Radio</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,13 +169,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/filter/CorsFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/CategoryServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/dto/ArticleDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cabbage/filter/MyObjectifyFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/entity/CrawlerSource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/dto/CrawlerSourceDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cabbage/entity/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/dto/CategoryDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/entity/Category.java" />
-        <option value="$PROJECT_DIR$/web/admin/crawler-source/form.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCrawlerSourceServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/api/SourceAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/api/ArticleAPI.java" />
@@ -135,19 +184,31 @@
         <option value="$PROJECT_DIR$/web/client/header.jsp" />
         <option value="$PROJECT_DIR$/web/client/footer.jsp" />
         <option value="$PROJECT_DIR$/web/admin/include/home.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/include/left-menu.jsp" />
         <option value="$PROJECT_DIR$/web/admin/include/dashboard.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/include/right-menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCategoryServlet.java" />
         <option value="$PROJECT_DIR$/web/admin/include/nava-bar-menu.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/include/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/dashboard.java" />
         <option value="$PROJECT_DIR$/web/client/home.jsp" />
         <option value="$PROJECT_DIR$/web/admin/include/admin-home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/Dashboard.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/admin/include/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabbage/filter/MyObjectifyFilter.java" />
         <option value="$PROJECT_DIR$/web/admin/category/form.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/include/header.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/include/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/ArticleServlet.java" />
+        <option value="$PROJECT_DIR$/web/admin/article/form.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabbage/entity/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddArticleServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" />
+        <option value="$PROJECT_DIR$/web/admin/include/navbar-menu.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/include/right-menu.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/article/article-form.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/category/category-form.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/include/footer.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/include/left-menu.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/crawler-source/form.jsp" />
       </list>
     </option>
   </component>
@@ -159,8 +220,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="523" />
-    <option name="width" value="850" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -171,6 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,7 +283,21 @@
               <item name="ASM_Crawler_New" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ASM_Crawler_New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ASM_Crawler_New" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ASM_Crawler_New" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ASM_Crawler_New" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler-source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ASM_Crawler_New" type="b2602c69:ProjectViewProjectNode" />
@@ -239,20 +316,12 @@
               <item name="ASM_Crawler_New" type="b2602c69:ProjectViewProjectNode" />
               <item name="ASM_Crawler_New" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ASM_Crawler_New" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ASM_Crawler_New" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +333,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564796863155" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hetforrent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/admin/article" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -279,28 +348,29 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.cabbage.dto" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\client" />
+      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\assets\js" />
+      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\assets" />
     </key>
     <key name="CreateBuilderDialog.RecentsKey">
       <recent name="com.cabbage.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NguyenCongJP\IdeaProjects\JavaWebKy4\ASM_Crawler_New\web\admin\article" />
       <recent name="C:\Users\NguyenCongJP\IdeaProjects\JavaWebKy4\ASM_Crawler_New\web\admin\include" />
       <recent name="C:\Users\NguyenCongJP\IdeaProjects\JavaWebKy4\ASM_Crawler_New\web\client" />
       <recent name="C:\Users\NguyenCongJP\IdeaProjects\JavaWebKy4\ASM_Crawler_New\web\WEB-INF\tags" />
       <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\admin" />
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\admin\category" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cabbage.servlet.admin" />
       <recent name="com.cabbage.filter" />
       <recent name="com.cabbage.utils" />
       <recent name="com.cabbage.dto" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\client" />
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\assets\js" />
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\assets" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cabbage.dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,17 +531,20 @@
       <workItem from="1564799540342" duration="5998000" />
       <workItem from="1564830014654" duration="1362000" />
       <workItem from="1565017085785" duration="6776000" />
-      <workItem from="1565088511500" duration="980000" />
+      <workItem from="1565088511500" duration="1550000" />
+      <workItem from="1565097390237" duration="16646000" />
+      <workItem from="1565261657916" duration="4843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53272000" />
+    <option name="totallyTimeSpent" value="75331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.295764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -481,7 +554,7 @@
       <window_info id="Web" order="7" sideWeight="0.5008183" side_tool="true" weight="0.16944024" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36006546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38625205" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,7 +563,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32569557" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -507,40 +580,6 @@
       <window_info anchor="right" id="Google Cloud Storage" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24966443" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Google Cloud Storage" order="6" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -560,12 +599,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/entity/ArticleBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/utils/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/5.1.22/objectify-5.1.22.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -588,16 +621,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/filter/MyObjectifyFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/dto/CategoryDTO.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,34 +659,6 @@
             <element signature="e#822#823#0" expanded="true" />
             <element signature="e#875#876#0" expanded="true" />
             <element signature="e#915#916#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/entity/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="193" column="26" selection-start-line="193" selection-start-column="26" selection-end-line="193" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2040#2041#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#2214#2215#0" expanded="true" />
-            <element signature="e#2249#2250#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-            <element signature="e#2423#2424#0" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2525#2526#0" expanded="true" />
-            <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
-            <element signature="e#2625#2626#0" expanded="true" />
-            <element signature="e#2661#2662#0" expanded="true" />
-            <element signature="e#3419#3420#0" expanded="true" />
-            <element signature="e#3463#3464#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -728,23 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCrawlerSourceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/crawler-source/form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/api/SourceAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -766,6 +744,40 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/master-layout.tag" />
+    <entry file="file://$PROJECT_DIR$/web/client/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/client/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/Dashboard.java" />
+    <entry file="file://$PROJECT_DIR$/web/client/header.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/client/HomeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -776,17 +788,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/crawler-source/special-content.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/utils/StringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/entity/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="193" column="26" selection-start-line="193" selection-start-column="26" selection-end-line="193" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="e#2625#2626#0" expanded="true" />
+            <element signature="e#3419#3420#0" expanded="true" />
+            <element signature="e#3463#3464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/article/list.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/admin/article/list-v2.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/filter/MyObjectifyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCrawlerSourceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddArticleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/entity/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="2660">
+          <caret line="157" column="32" lean-forward="true" selection-start-line="157" selection-start-column="32" selection-end-line="157" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2431#2432#0" expanded="true" />
@@ -817,29 +892,29 @@
             <element signature="e#3494#3495#0" expanded="true" />
             <element signature="e#3535#3536#0" expanded="true" />
             <element signature="e#3571#3572#0" expanded="true" />
-            <element signature="e#4011#4012#0" expanded="true" />
-            <element signature="e#4055#4056#0" expanded="true" />
+            <element signature="class#Builder#0;class#Article#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/client/header.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/client/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/include/navbar-menu.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2138">
-          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+        <state relative-caret-position="174">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/include/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/include/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="287">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
           </folding>
@@ -848,67 +923,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/include/right-menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="287">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/client/home.jsp">
+    <entry file="file://$PROJECT_DIR$/web/admin/include/navbar-menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/AddCategoryServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cabbage/servlet/admin/Dashboard.java" />
-    <entry file="file://$PROJECT_DIR$/web/admin/include/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="287">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/include/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/category/form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="80">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/admin/category/category-form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="129">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc;n#jsp:root#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/crawler-source/special-content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/include/left-menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="840">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/article/article-form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="90" column="10" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="90" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/crawler-source/form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
         </state>
       </provider>
     </entry>

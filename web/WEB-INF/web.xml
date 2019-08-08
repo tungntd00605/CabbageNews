@@ -35,12 +35,30 @@
     <!-- START ADMIN SERVLET-->
 
     <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/admin/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>AddCategoryServlet</servlet-name>
         <servlet-class>com.cabbage.servlet.admin.AddCategoryServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddCategoryServlet</servlet-name>
         <url-pattern>/admin/category/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddArticleServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.AddArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddArticleServlet</servlet-name>
+        <url-pattern>/admin/article/add</url-pattern>
     </servlet-mapping>
 
     <servlet>

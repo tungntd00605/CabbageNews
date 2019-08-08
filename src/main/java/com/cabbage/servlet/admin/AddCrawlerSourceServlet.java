@@ -19,7 +19,7 @@ public class AddCrawlerSourceServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setAttribute("categories", ofy().load().type(Category.class).list());
-        req.getRequestDispatcher("/admin/crawler-source/form.jsp").forward(req, resp);
+        req.getRequestDispatcher("/admin/crawler-source/category-article-form.jsp").forward(req, resp);
     }
 
     @Override

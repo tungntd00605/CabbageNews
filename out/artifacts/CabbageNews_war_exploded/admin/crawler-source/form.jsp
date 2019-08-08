@@ -10,7 +10,17 @@
     <script src="/assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container">
+
+<%--Include header admin--%>
+<jsp:include page="/admin/include/header.jsp"/>
+
+<%--Include left-menu admin--%>
+<jsp:include page="/admin/include/left-menu.jsp"/>
+
+
+<%--include nave bar menu--%>
+<jsp:include page="/admin/include/navbar-menu.jsp"/>
+<div class="container right-panel" class="col-lg-9">
     <h1>Add crawler source</h1>
     <form action="/admin/crawler-source/add" method="post">
         <div class="form-group">
@@ -47,7 +57,7 @@
         <%--</div>--%>
         <div class="form-group">
             <label>Category</label>
-            <select name="categoryId">
+            <select name="categoryId" class="col col-md-3">
                 <c:forEach var="category" items="${categories}">
                     <option value="${category.id}"><c:out value="${category.name}"/></option>
                 </c:forEach>
@@ -55,7 +65,7 @@
         </div>
         <div class="form-group">
             <input type="submit" class="btn btn-primary" value="Save"/>
-            <input type="reset" class="btn btn-primary" value="Reset"/>
+            <input type="reset" class="btn btn-warning" value="Reset"/>
         </div>
     </form>
 </div>
