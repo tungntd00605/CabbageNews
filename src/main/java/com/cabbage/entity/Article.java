@@ -18,6 +18,8 @@ public class Article {
     private String url;
     @Index
     private String title;
+    @Index
+    @Load
     private Ref<Category> category;
     private String description;
     private String content;
