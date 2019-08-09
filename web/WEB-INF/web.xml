@@ -71,11 +71,11 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>PreviewSpecialServlet</servlet-name>
-        <servlet-class>com.cabbage.servlet.admin.PreviewSpecialServlet</servlet-class>
+        <servlet-name>PreviewSpecialContentController</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.PreviewSpecialContentServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>PreviewSpecialServlet</servlet-name>
+        <servlet-name>PreviewSpecialContentController</servlet-name>
         <url-pattern>/admin/crawler-source/special-content</url-pattern>
     </servlet-mapping>
     <servlet>

@@ -367,6 +367,6 @@
         <!-- .animated -->
     </div>
     <!-- /.content -->
-    <div class="clearfix"></div>
+    <jsp:include page="/admin/include/footer.jsp"/>
 </div>
 <!-- /#right-panel -->

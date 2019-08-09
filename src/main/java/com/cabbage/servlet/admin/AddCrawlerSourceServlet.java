@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 import java.util.logging.Logger;
 
 import static com.googlecode.objectify.ObjectifyService.ofy;
@@ -19,7 +18,7 @@ public class AddCrawlerSourceServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setAttribute("categories", ofy().load().type(Category.class).list());
-        req.getRequestDispatcher("/admin/crawler-source/category-article-form.jsp").forward(req, resp);
+        req.getRequestDispatcher("/admin/crawler-source/category-article-crawler-source-form.jsp").forward(req, resp);
     }
 
     @Override

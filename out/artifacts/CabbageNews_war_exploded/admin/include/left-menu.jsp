@@ -44,7 +44,7 @@
                 <%--Quản Lý Crawler Source--%>
                 <li class="menu-title">Crawler Source</li><!-- /.menu-title -->
                 <li class="#">
-                    <a href="/admin/crawler-source/form.jsp" class="#" aria-expanded="false"><i
+                    <a href="/admin/crawler-source/crawler-source-form.jsp" class="#" aria-expanded="false"><i
                             class="menu-icon fa fa-plus"></i>Create Crawler Source</a>
                 </li>
                 <li class="#">

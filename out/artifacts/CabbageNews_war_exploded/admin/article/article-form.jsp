@@ -29,7 +29,7 @@
                 <strong>Article form</strong>
             </div>
             <div class="card-body card-block">
-                <form action="/admin/article/add" method="post" enctype="multipart/form-data" class="form-horizontal">
+                <form action="/admin/article/add" method="post" class="form-horizontal">
 
                     <div class="row form-group">
                         <div class="col col-md-3"><label class=" form-control-label">Slug</label>
@@ -90,6 +90,7 @@
             </div>
         </div>
     </div>
+    <jsp:include page="/admin/include/footer.jsp"/>
 </div>
 
-<jsp:include page="/admin/include/footer.jsp"/>
+<jsp:include page="/admin/include/script-footer.jsp"/>

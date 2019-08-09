@@ -42,23 +42,23 @@
     <div class="col-lg-9" style="margin-left: 150px;">
         <div class="card">
             <div class="card-header">
-                <strong>Article form</strong>
+                <strong>Category form</strong>
             </div>
-            <div class="card-body card-block">
-                <form action="/admin/category/add" method="post" enctype="multipart/form-data" class="form-horizontal">
+            <div class="card-body card-block" style="height: 400px;">
+                <form action="/admin/category/add" method="post" class="form-horizontal">
 
                     <div class="row form-group">
-                        <div class="col col-md-3"><label for="text-input" class=" form-control-label">Category Name</label>
+                        <div class="col col-md-3"><label class=" form-control-label">Category Name</label>
                         </div>
-                        <div class="col-12 col-md-9"><input type="text" id="text-input" name="text-input"
-                                                            placeholder="Text" class="form-control">
+                        <div class="col-12 col-md-9">
+                            <input type="text" name="name" placeholder="Enter category name" class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col col-md-3"><label class=" form-control-label">Description</label></div>
-                        <div class="col-12 col-md-9"><input type="text" name="title" placeholder="Enter Description"
-                                                            class="form-control">
+                        <div class="col-12 col-md-9">
+                            <input type="text" name="description" placeholder="Enter Description" class="form-control">
                         </div>
                     </div>
 
@@ -74,6 +74,8 @@
             </div>
         </div>
     </div>
+    <jsp:include page="/admin/include/footer.jsp"/>
+    <jsp:include page="/admin/include/script-footer.jsp"/>
 </div>
 
-<jsp:include page="/admin/include/footer.jsp"/>
+

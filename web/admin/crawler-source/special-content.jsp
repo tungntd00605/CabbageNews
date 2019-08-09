@@ -14,6 +14,21 @@
 <%--Include header admin--%>
 <jsp:include page="/admin/include/header.jsp"/>
 
+<title>Title</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
 <%--Include left-menu admin--%>
 <jsp:include page="/admin/include/left-menu.jsp"/>
 
@@ -21,7 +36,7 @@
 <%--include nave bar menu--%>
 <jsp:include page="/admin/include/navbar-menu.jsp"/>
 
-<div class="right-panel">
+<div id="right-panel" class="right-panel">
 
     <div class="col-lg-9" style="margin-left: 150px;">
         <div class="card">
@@ -31,13 +46,13 @@
             <div class="card-body card-block">
 
                 <div class="container">
-                    <%--        <div>--%>
-                    <%--            <p>Welcome: <%= userService.getCurrentUser().getEmail()%>--%>
-                    <%--            </p>--%>
-                    <%--            <p>Name: <%= userService.getCurrentUser().getNickname()%>--%>
-                    <%--            </p>--%>
-                    <%--            <p><a href="<%= userService.createLogoutURL("/")%>">Logout</a></p>--%>
-                    <%--        </div>--%>
+                    <%--    <div>--%>
+                    <%--        <p>Welcome: <%= userService.getCurrentUser().getEmail()%>--%>
+                    <%--        </p>--%>
+                    <%--        <p>Name: <%= userService.getCurrentUser().getNickname()%>--%>
+                    <%--        </p>--%>
+                    <%--        <p><a href="<%= userService.createLogoutURL("/")%>">Logout</a></p>--%>
+                    <%--    </div>--%>
                     <form action="#" method="post">
                         <div class="form-group">
                             <label>Source url</label>
@@ -79,54 +94,58 @@
                     </div>
                 </div>
 
+                <script>
+                    // A $( document ).ready() block.
+                    $(document).ready(function () {
+                        $('#btn-preview').click(function () {
+                            var data = {
+                                "url": $('input[name="url"]').val(),
+                                "titleSelector": $('input[name="titleSelector"]').val(),
+                                "contentSelector": $('input[name="contentSelector"]').val()
+                            }
+                            $.ajax({
+                                "url": "http://localhost:8080/admin/crawler-source/special-content",
+                                "method": "post",
+                                "data": JSON.stringify(data),
+                                "success": function (responseData) {
+                                    $('#article-title').text(responseData.title);
+                                    $('#article-content').html(responseData.content);
+                                    $('#preview-modal').modal('show');
+                                },
+                                "error": function () {
+                                    console.log("Error.");
+                                }
+                            });
+                        });
+                        $('#btn-save').click(function () {
+                            var data = {
+                                "url": $('input[name="url"]').val(),
+                                "title": $('#article-title').text(),
+                                "content": $('#article-content').html()
+                            }
+                            $.ajax({
+                                "url": "http://localhost:8080/admin/crawler-source/save-special-content",
+                                "method": "post",
+                                "data": JSON.stringify(data),
+                                "success": function (responseData) {
+                                    alert('Save success!');
+                                    $('#preview-modal').modal('hide');
+                                },
+                                "error": function () {
+                                    console.log("Error.");
+                                }
+                            });
+                        });
+                    });
+                </script>
+
             </div>
         </div>
     </div>
 
-    <script>
-        // A $( document ).ready() block.
-        $(document).ready(function () {
-            $('#btn-preview').click(function () {
-                var data = {
-                    "url": $('input[name="url"]').val(),
-                    "titleSelector": $('input[name="titleSelector"]').val(),
-                    "contentSelector": $('input[name="contentSelector"]').val()
-                }
-                $.ajax({
-                    "url": "http://localhost:8080/admin/crawler-source/special-content",
-                    "method": "post",
-                    "data": JSON.stringify(data),
-                    "success": function (responseData) {
-                        $('#article-title').text(responseData.title);
-                        $('#article-content').html(responseData.content);
-                        $('#preview-modal').modal('show');
-                    },
-                    "error": function () {
-                        console.log("Error.");
-                    }
-                });
-            });
-            $('#btn-save').click(function () {
-                var data = {
-                    "url": $('input[name="url"]').val(),
-                    "title": $('#article-title').text(),
-                    "content": $('#article-content').html()
-                }
-                $.ajax({
-                    "url": "http://localhost:8080/admin/crawler-source/save-special-content",
-                    "method": "post",
-                    "data": JSON.stringify(data),
-                    "success": function (responseData) {
-                        alert('Save success!');
-                        $('#preview-modal').modal('hide');
-                    },
-                    "error": function () {
-                        console.log("Error.");
-                    }
-                });
-            });
-        });
-    </script>
+    <jsp:include page="/admin/include/footer.jsp"/>
+
 </div>
 
-<jsp:include page="/admin/include/footer.jsp"/>
+
+<jsp:include page="/admin/include/script-footer.jsp"/>

@@ -21,7 +21,7 @@
 <jsp:include page="/admin/include/right-menu.jsp"/>
 
 <%--Include footer admin--%>
-<jsp:include page="/admin/include/footer.jsp"/>
+<jsp:include page="/admin/include/script-footer.jsp"/>
 
 
 </body>
