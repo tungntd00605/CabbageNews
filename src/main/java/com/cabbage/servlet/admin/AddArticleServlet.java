@@ -49,6 +49,7 @@ public class AddArticleServlet extends HttpServlet {
                 .withCategory(Ref.create(Key.create(Category.class, categoryId)))
                 .build();
         ofy().save().entity(article).now();
-        resp.getWriter().println("Okie");
+//        resp.getWriter().println("Okie");
+        resp.sendRedirect("/admin/article/list");
     }
 }

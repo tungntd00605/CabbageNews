@@ -17,7 +17,7 @@ public class AddCategoryServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/admin/category/form.jsp").forward(req, resp);
+        req.getRequestDispatcher("/admin/category/category-form.jsp").forward(req, resp);
     }
 
     @Override
@@ -28,7 +28,8 @@ public class AddCategoryServlet extends HttpServlet {
                 .withName(name)
                 .withDescription(description)
                 .build()).now();
-        resp.getWriter().println("Okie");
+//        resp.getWriter().println("Okie");
         // redirect to list category.
+        resp.sendRedirect("/admin/category/list");
     }
 }

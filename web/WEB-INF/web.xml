@@ -41,6 +41,7 @@
     <servlet-mapping>
         <servlet-name>IndexServlet</servlet-name>
         <url-pattern>/admin/home</url-pattern>
+        <url-pattern>/admin/</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -85,7 +86,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>PreviewSpecialContentController</servlet-name>
-        <url-pattern>/admin/crawler-source/special-content</url-pattern>
+        <url-pattern>/admin/article/special-content</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>SaveSpecialContentServlet</servlet-name>
@@ -114,7 +115,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>ListCategoryServlet</servlet-name>
-        <url-pattern>/categories</url-pattern>
+        <url-pattern>/admin/category/list</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>ListCrawlerServlet</servlet-name>
@@ -122,7 +123,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>ListCrawlerServlet</servlet-name>
-        <url-pattern>/listCrawler</url-pattern>
+        <url-pattern>/admin/crawler-source/listg</url-pattern>
     </servlet-mapping>
     <!-- END CLIENT SERVLET-->
     <filter>

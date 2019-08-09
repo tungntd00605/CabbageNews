@@ -11,37 +11,37 @@
                 <%--Quản Lý Article--%>
                 <li class="menu-title">Article</li><!-- /.menu-title -->
                 <li class="#">
-                    <a href="/admin/article/article-form.jsp" class="#" aria-expanded="false"><i
+                    <a href="/admin/article/add" class="#" aria-expanded="false"><i
                             class="menu-icon fa fa-plus"></i>Create Article</a>
                 </li>
                 <li class="#">
-                    <a href="/admin/crawler-source/special-content.jsp" class="#" aria-expanded="false"><i
+                    <a href="/admin/article/special-content" class="#" aria-expanded="false"><i
                             class="menu-icon fa fa-plus"></i>Special Content</a>
                 </li>
                 <li class="#">
-                    <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-list-ul"></i>List
+                    <a href="/admin/article/list" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-list-ul"></i>List
                         Article</a>
                 </li>
 
                 <%--Quản Lý Category--%>
                 <li class="menu-title">Category</li><!-- /.menu-title -->
                 <li class="#">
-                    <a href="/admin/category/category-form.jsp" class="#" aria-expanded="false"><i
+                    <a href="/admin/category/add" class="#" aria-expanded="false"><i
                             class="menu-icon fa fa-plus"></i>Create Category</a>
                 </li>
                 <li class="#">
-                    <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-list-ul"></i>List
+                    <a href="/admin/category/list" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-list-ul"></i>List
                         Category</a>
                 </li>
 
                 <%--Quản Lý Crawler Source--%>
                 <li class="menu-title">Crawler Source</li><!-- /.menu-title -->
                 <li class="#">
-                    <a href="/admin/crawler-source/crawler-source-form.jsp" class="#" aria-expanded="false"><i
+                    <a href="/admin/crawler-source/add" class="#" aria-expanded="false"><i
                             class="menu-icon fa fa-plus"></i>Create Crawler Source</a>
                 </li>
                 <li class="#">
-                    <a href="#" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-list-ul"></i>List
+                    <a href="/admin/crawler-source/list" aria-haspopup="true" aria-expanded="false"><i class="menu-icon fa fa-list-ul"></i>List
                         Crawler Source</a>
                 </li>
             </ul>

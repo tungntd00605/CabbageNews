@@ -14,6 +14,6 @@ public class ListArticleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setAttribute("article", ofy().load().type(Article.class).list());
-        req.getRequestDispatcher("/admin/article/list-article-backup.jsp").forward(req,resp);
+        req.getRequestDispatcher("/admin/article/list-article.jsp").forward(req,resp);
     }
 }
