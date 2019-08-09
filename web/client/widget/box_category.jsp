@@ -1,3 +1,5 @@
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <article class="list_news">
     <h4 class="title_news">
         <a href="/article?arcId=${articles.get(0).id}" title="${articles.get(0).title}">
@@ -8,7 +10,16 @@
             <img style="max-width:140px;max-height:84px" src="${articles.get(0).thumbnail}" class="vne_lazy_image" data-original="${articles.get(0).thumbnail}" alt="${articles.get(0).title}">
         </a>
     </div>
-    <p class="description">${articles.get(0).description.substring(0,150)}</p>
+    <p class="description">
+        <c:choose>
+            <c:when test="${articles.get(0).description != null && articles.get(0).description.length() > 100}">
+                ${articles.get(0).description.substring(0, 100)}
+            </c:when>
+            <c:otherwise>
+                ${articles.get(0).description}
+            </c:otherwise>
+        </c:choose>
+    </p>
 </article>
 <ul class="list_title">
     <li>

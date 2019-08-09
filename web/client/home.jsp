@@ -1,14 +1,12 @@
-<%@ page import="com.quanganh9x.marquee.service.ArticleService" %>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>VnExpress - Báo tiếng Việt nhiều người xem nhất</title>
+    <title>Cải Bắp Niwww - Báo tiếq Việt được crawl nhiều nhất</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=100"/>
-    <meta property="fb:app_id" content="1547540628876392"/>
-    <link rel="canonical" href="https://vnexpress.net"/>
+    <link rel="canonical" href="https://cabbagenews.appspot.com"/>
     <meta http-equiv="REFRESH" content="1800"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="dns-prefetch" href="//s.eclick.vn"/>
@@ -242,18 +240,25 @@
                 </a>
             </div>
             <p class="description">
-                ${article.description.substring(0, 100)}</p>
+                <c:choose>
+                    <c:when test="${article.description != null && article.description.length() > 100}">
+                        ${article.description.substring(0, 100)}
+                    </c:when>
+                    <c:otherwise>
+                        ${article.description}
+                    </c:otherwise>
+                </c:choose>
+            </p>
         </article>
         </c:forEach>
     </section>
     <!--End sidebar_1-->
     <section class="sidebar_home_2 sidebar_flexible">
         <c:forEach var="category" items="${categories}">
-            <section class="box_category clearfix list_title_right">
+            <section class="box_category clearfix list_title_right" id="cat${category.id}">
                 <hgroup class="title_box_category">
                     <h2><a title="${category.name}" href="/category?catId=${category.name}" class="first">${category.name}</a></h2>
                 </hgroup>
-<%--                <c:import var="data" url="/widget/boxCategory?catId=${category.id}"/>--%>
 
             </section>
         </c:forEach>

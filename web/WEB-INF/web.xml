@@ -63,12 +63,28 @@
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
     <servlet>
+        <servlet-name>CategoryServlet</servlet-name>
+        <servlet-class>com.quanganh9x.marquee.servlet.client.CategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryServlet</servlet-name>
+        <url-pattern>/category</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>BoxCategoryWidget</servlet-name>
         <servlet-class>com.quanganh9x.marquee.servlet.client.widget.BoxCategoryWidget</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>BoxCategoryWidget</servlet-name>
         <url-pattern>/widget/boxCategory</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ArticleServlet</servlet-name>
+        <servlet-class>com.quanganh9x.marquee.servlet.client.ArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ArticleServlet</servlet-name>
+        <url-pattern>/article</url-pattern>
     </servlet-mapping>
     <!-- END CLIENT SERVLET-->
 

@@ -14,6 +14,7 @@ public class ArticleService {
 
     public List<Article> getArticleByCategory(Category category) {
         return ofy().load().type(Article.class).filter("category", category).limit(3).list();
+
     }
 
 
