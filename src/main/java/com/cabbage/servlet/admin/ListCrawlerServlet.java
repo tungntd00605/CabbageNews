@@ -14,6 +14,6 @@ public class ListCrawlerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setAttribute("crawlerSource" , ofy().load().type(CrawlerSource.class).list());
-        req.getRequestDispatcher("/admin/crawler-source/listCrawler.jsp").forward(req,resp);
+        req.getRequestDispatcher("/admin/crawler-source/list-crawler.jsp").forward(req,resp);
     }
 }
