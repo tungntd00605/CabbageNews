@@ -71,6 +71,14 @@
                     </div>
 
                     <div class="row form-group">
+                        <div class="col col-md-3"><label class=" form-control-label">Author Selector</label>
+                        </div>
+                        <div class="col-12 col-md-9"><input type="text" name="authorSelector"
+                                                            placeholder="Author Selector" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
                         <div class="col col-md-3"><label class=" form-control-label">Category</label>
                         </div>
                         <div class="col-12 col-md-9">

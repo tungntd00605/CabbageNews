@@ -31,7 +31,6 @@ public class AddCrawlerSourceServlet extends HttpServlet {
         String descriptionSelector = req.getParameter("descriptionSelector");
         String contentSelector = req.getParameter("contentSelector");
         String authorSelector = req.getParameter("authorSelector");
-        String thumbnailSelector = req.getParameter("thumbnailSelector");
         int linkLimit = 10;
         try {
             linkLimit = Integer.parseInt(strLinkLimit);
@@ -47,7 +46,6 @@ public class AddCrawlerSourceServlet extends HttpServlet {
                 .withDescriptionSelector(descriptionSelector)
                 .withContentSelector(contentSelector)
                 .withAuthorSelector(authorSelector)
-                .withThumbnailSelector(thumbnailSelector)
                 .withCategoryId(categoryId)
                 .withStatus(1)
                 .build();

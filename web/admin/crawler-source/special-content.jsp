@@ -63,8 +63,16 @@
                             <input type="text" name="titleSelector" class="form-control">
                         </div>
                         <div class="form-group">
+                            <label>Description Selector</label>
+                            <input type="text" name="descriptionSelector" class="form-control">
+                        </div>
+                        <div class="form-group">
                             <label>Content Selector</label>
                             <input type="text" name="contentSelector" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Author Selector</label>
+                            <input type="text" name="authorSelector" class="form-control">
                         </div>
                         <div class="form-group">
                             <input type="button" class="btn btn-primary" value="Preview" id="btn-preview"/>
@@ -104,7 +112,7 @@
                                 "contentSelector": $('input[name="contentSelector"]').val()
                             }
                             $.ajax({
-                                "url": "http://localhost:8080/admin/crawler-source/special-content",
+                                "url": "/admin/article/special-content",
                                 "method": "post",
                                 "data": JSON.stringify(data),
                                 "success": function (responseData) {
@@ -113,7 +121,7 @@
                                     $('#preview-modal').modal('show');
                                 },
                                 "error": function () {
-                                    console.log("Error.");
+                                    alert("Check your form data again")
                                 }
                             });
                         });
@@ -124,7 +132,7 @@
                                 "content": $('#article-content').html()
                             }
                             $.ajax({
-                                "url": "http://localhost:8080/admin/crawler-source/save-special-content",
+                                "url": "/admin/article/save-special-content",
                                 "method": "post",
                                 "data": JSON.stringify(data),
                                 "success": function (responseData) {

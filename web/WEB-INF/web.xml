@@ -94,7 +94,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>SaveSpecialContentServlet</servlet-name>
-        <url-pattern>/admin/crawler-source/save-special-content</url-pattern>
+        <url-pattern>/admin/article/save-special-content</url-pattern>
     </servlet-mapping>
     <!-- END ADMIN SERVLET-->
 
