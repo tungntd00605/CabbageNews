@@ -40,6 +40,7 @@
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.css" rel="stylesheet" />
 
     <script src="https://cdn.ckeditor.com/ckeditor5/12.3.1/classic/ckeditor.js"></script>
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>
 
     <style>
         #weatherWidget .currentDesc {
