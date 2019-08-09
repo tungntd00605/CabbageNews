@@ -32,14 +32,16 @@
                 <form action="/admin/article/add" method="post" class="form-horizontal">
 
                     <div class="row form-group">
-                        <div class="col col-md-3"><label class=" form-control-label">Slug</label>
+                        <div class="col col-md-3">
+                            <label class=" form-control-label">URL</label>
                         </div>
-                        <div class="col-12 col-md-9"><input type="text" id="text-input" name="url"
-                                                            placeholder="Text" class="form-control">
+                        <div class="col-12 col-md-9">
+                            <input type="text" name="url" placeholder="Text" class="form-control">
                         </div>
                     </div>
                     <div class="row form-group">
-                        <div class="col col-md-3"><label class=" form-control-label">Category</label>
+                        <div class="col col-md-3">
+                            <label class=" form-control-label">Category</label>
                         </div>
                         <div class="col-12 col-md-9">
                             <select name="categoryId" class="col col-md-6">
