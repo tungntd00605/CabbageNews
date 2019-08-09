@@ -7,10 +7,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.logging.Logger;
 
 import static com.googlecode.objectify.ObjectifyService.ofy;
 
 public class AddCategoryServlet extends HttpServlet {
+
+    private static final Logger LOGGER = Logger.getLogger(AddCategoryServlet.class.getSimpleName());
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.getRequestDispatcher("/admin/category/form.jsp").forward(req, resp);
@@ -23,9 +27,8 @@ public class AddCategoryServlet extends HttpServlet {
         ofy().save().entity(Category.Builder.aCategory()
                 .withName(name)
                 .withDescription(description)
-                .withStatus(1)
                 .build()).now();
-        // Later change to request.getDispatcher => form page with success message
-        resp.getWriter().println("Category created");
+        resp.getWriter().println("Okie");
+        // redirect to list category.
     }
 }

@@ -35,6 +35,7 @@ public class Article {
     @Index
     private int status;
 
+
     public Article() {
     }
 
@@ -159,6 +160,7 @@ public class Article {
     }
 
     public static final class Builder {
+        Ref<Category> category;
         private Long id;
         private String url;
         private String title;
@@ -227,6 +229,11 @@ public class Article {
             return this;
         }
 
+        public Builder withCategory(Ref<Category> category) {
+            this.category = category;
+            return this;
+        }
+
         public Article build() {
             Article article = new Article();
             article.setId(id);
@@ -241,5 +248,6 @@ public class Article {
             article.setStatus(status);
             return article;
         }
+
     }
 }

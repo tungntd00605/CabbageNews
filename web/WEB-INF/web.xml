@@ -33,6 +33,16 @@
     <!-- END API SERVLET-->
 
     <!-- START ADMIN SERVLET-->
+
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/admin/home</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>AddCategoryServlet</servlet-name>
         <servlet-class>com.cabbage.servlet.admin.AddCategoryServlet</servlet-class>
@@ -43,12 +53,38 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>AddArticleServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.AddArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddArticleServlet</servlet-name>
+        <url-pattern>/admin/article/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>AddCrawlerSourceServlet</servlet-name>
         <servlet-class>com.cabbage.servlet.admin.AddCrawlerSourceServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddCrawlerSourceServlet</servlet-name>
         <url-pattern>/admin/crawler-source/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PreviewSpecialContentController</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.PreviewSpecialContentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PreviewSpecialContentController</servlet-name>
+        <url-pattern>/admin/crawler-source/special-content</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SaveSpecialContentServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.SaveSpecialContentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveSpecialContentServlet</servlet-name>
+        <url-pattern>/admin/crawler-source/save-special-content</url-pattern>
     </servlet-mapping>
     <!-- END ADMIN SERVLET-->
 

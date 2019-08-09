@@ -5,12 +5,8 @@
   Time: 8:17 AM
   To change this template use File | Settings | File Templates.
 --%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Homepage</title>
-</head>
-<body>
-    <h1>This is homepage</h1>
-</body>
-</html>
+
+<h1>Đây là trang home Client</h1>
