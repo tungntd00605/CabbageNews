@@ -10,10 +10,10 @@ import java.io.IOException;
 
 import static com.googlecode.objectify.ObjectifyService.ofy;
 
-public class ListArticelServlet extends HttpServlet {
+public class ListArticleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("articel", ofy().load().type(Article.class).list());
-        req.getRequestDispatcher("/admin/article/listArticel.jsp").forward(req,resp);
+        req.setAttribute("article", ofy().load().type(Article.class).list());
+        req.getRequestDispatcher("/admin/article/list-article-backup.jsp").forward(req,resp);
     }
 }
