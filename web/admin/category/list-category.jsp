@@ -11,20 +11,20 @@
 
     <!-- Content -->
     <div class="content">
-        <div class="col-lg-7">
+        <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
                     <strong class="card-title">Categories</strong>
                 </div>
                 <div class="form-inline col-md-6" style="margin-top: 10px">
-                    <label style="margin-right: 10px">Limit:</label>
-                    <select id="selectLimit" class="form-control col-3">
-                        <option value="10" ${limit == 10 ? "selected" : "" }> 10</option>
-                        <option value="25" ${limit == 25 ? "selected" : "" }> 25</option>
-                        <option value="50" ${limit == 50 ? "selected" : "" }> 50</option>
-                        <option value="100" ${limit == 100 ? "selected" : "" }> 100</option>
-                    </select>
-                </div>
+                <label style="margin-right: 10px">Limit:</label>
+                <select id="selectLimit" class="form-control col-3">
+                    <option value="10" ${limit == 10 ? "selected" : "" }> 10</option>
+                    <option value="25" ${limit == 25 ? "selected" : "" }> 25</option>
+                    <option value="50" ${limit == 50 ? "selected" : "" }> 50</option>
+                    <option value="100" ${limit == 100 ? "selected" : "" }> 100</option>
+                </select>
+            </div>
                 <div class="card-body">
                     <table class="table">
                         <thead>
@@ -42,8 +42,8 @@
                                 <td><c:out value="${category.name}"></c:out></td>
                                 <td><c:out value="${category.description}"></c:out></td>
                                 <td>
-                                    <button class="btn btn-outline-info btn-edit"> <i class="fas fa-edit"></i></button>
-                                    <button class="btn btn-outline-danger btn-delete"> <i class="fas fa-trash-alt"></i></button>
+                                    <a class="btn btn-outline-info btn-edit" href="/admin/category/edit-category?id=<c:out value="${category.id}"/>"> <i class="fas fa-edit"></i></a>
+                                    <a class="btn btn-outline-danger btn-delete" href="/admin/category/delete-category?id=<c:out value="${category.id}"/>> <i class="fas fa-trash-alt"></i></button>
                                 </td>
                             </tr>
                         </c:forEach>

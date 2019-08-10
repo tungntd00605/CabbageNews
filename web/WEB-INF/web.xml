@@ -96,6 +96,30 @@
         <servlet-name>SaveSpecialContentServlet</servlet-name>
         <url-pattern>/admin/article/save-special-content</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>EditArticleServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.EditArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditArticleServlet</servlet-name>
+        <url-pattern>/admin/article/edit-article</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteArticleServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.DeleteArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteArticleServlet</servlet-name>
+        <url-pattern>/admin/article/delete-article</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EditCategoryServlet</servlet-name>
+        <servlet-class>com.cabbage.servlet.admin.EditCategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditCategoryServlet</servlet-name>
+        <url-pattern>/admin/category/edit-category</url-pattern>
+    </servlet-mapping>
     <!-- END ADMIN SERVLET-->
 
     <!-- START CLIENT SERVLET-->
