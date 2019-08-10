@@ -1,6 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="com.cabbage.entity.Category" %>
-<%@ page import="java.util.List" %><%--
+<%@ page import="java.util.List" %>
+<%@ page import="com.google.appengine.api.blobstore.BlobstoreService" %>
+<%@ page import="com.google.appengine.api.blobstore.BlobstoreServiceFactory" %><%--
   Created by IntelliJ IDEA.
   User: xuanhung
   Date: 2019-07-30
@@ -8,6 +10,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    BlobstoreService blobstoreService = BlobstoreServiceFactory.getBlobstoreService();
+%>
 
 
 <title>Article form</title>
@@ -29,15 +34,15 @@
                 <strong>Article form</strong>
             </div>
             <div class="card-body card-block">
-                <form action="/admin/article/add" method="post" class="form-horizontal">
+                <form action="<%= blobstoreService.createUploadUrl("/admin/article/add")%>" method="post" class="form-horizontal" enctype="multipart/form-data" accept-charset="UTF-8">
 
                     <div class="row form-group">
-                        <div class="col col-md-3"><label class=" form-control-label">Slug</label>
-                        </div>
-                        <div class="col-12 col-md-9"><input type="text" id="text-input" name="url"
-                                                            placeholder="Text" class="form-control">
+                        <div class="col col-md-3"><label class=" form-control-label">Title</label></div>
+                        <div class="col-12 col-md-9"><input type="text" name="title" placeholder="Enter Title"
+                                                            class="form-control">
                         </div>
                     </div>
+
                     <div class="row form-group">
                         <div class="col col-md-3"><label class=" form-control-label">Category</label>
                         </div>
@@ -49,16 +54,18 @@
                             </select>
                         </div>
                     </div>
+
+
                     <div class="row form-group">
-                        <div class="col col-md-3"><label class=" form-control-label">Title</label></div>
-                        <div class="col-12 col-md-9"><input type="text" name="title" placeholder="Enter Title"
+                        <div class="col col-md-3"><label class=" form-control-label">Description</label></div>
+                        <div class="col-12 col-md-9"><input type="text" name="description" placeholder="Enter Description"
                                                             class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
-                        <div class="col col-md-3"><label class=" form-control-label">Description</label></div>
-                        <div class="col-12 col-md-9"><input type="text" name="description" placeholder="Enter Description"
+                        <div class="col col-md-3"><label class=" form-control-label">Author</label></div>
+                        <div class="col-12 col-md-9"><input type="text" name="author" placeholder="Enter author name"
                                                             class="form-control">
                         </div>
                     </div>
@@ -75,7 +82,7 @@
                     <div class="row form-group">
                         <div class="col col-md-3"><label for="file-input" class=" form-control-label">Thumbnail</label>
                         </div>
-                        <div class="col-12 col-md-9"><input type="file" id="file-input" name="file-input"
+                        <div class="col-12 col-md-9"><input type="file" id="file-input" name="thumbnail"
                                                             class="form-control-file"></div>
                     </div>
                     <div>

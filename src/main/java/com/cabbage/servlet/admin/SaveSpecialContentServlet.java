@@ -1,8 +1,11 @@
 package com.cabbage.servlet.admin;
 
 import com.cabbage.entity.Article;
+import com.cabbage.entity.Category;
 import com.cabbage.utils.StringUtil;
 import com.google.gson.Gson;
+import com.googlecode.objectify.Key;
+import com.googlecode.objectify.Ref;
 import org.json.JSONObject;
 
 import javax.servlet.ServletException;
@@ -26,18 +29,29 @@ public class SaveSpecialContentServlet extends HttpServlet {
         JSONObject jsonObject = new JSONObject(requestBody);
         String url = jsonObject.getString("url");
         String title = jsonObject.getString("title");
+        String strCategoryId = jsonObject.getString("categoryId");
         String description = jsonObject.getString("description");
         String content = jsonObject.getString("content");
         String author = jsonObject.getString("author");
+
+        long categoryId = 0;
+        try {
+            categoryId = Long.parseLong(strCategoryId);
+        } catch (NumberFormatException ex) {
+            LOGGER.warning("Can not parse categoryId.");
+            LOGGER.warning(ex.getMessage());
+        }
+
         Article article = Article.Builder.anArticle()
                 .withUrl(url)
                 .withTitle(title)
                 .withDescription(description)
+                .withCategory(Ref.create(Key.create(Category.class, categoryId)))
                 .withContent(content)
                 .withAuthor(author)
                 .build();
         ofy().save().entity(article).now();
-//        resp.getWriter().println(new Gson().toJson(article));
+
         resp.sendRedirect("/admin/article/special-content");
     }
 }

@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="com.google.appengine.api.users.UserServiceFactory" %>
 <%@ page import="com.google.appengine.api.users.UserService" %><%--
   Created by IntelliJ IDEA.
@@ -63,6 +64,16 @@
                             <input type="text" name="titleSelector" class="form-control">
                         </div>
                         <div class="form-group">
+                            <label class=" form-control-label">Category</label>
+                            <div>
+                                <select name="categoryId" class="col col-md-4">
+                                    <c:forEach var="cate" items="${categories}">
+                                        <option value="${cate.id}"><c:out value="${cate.name}"/></option>
+                                    </c:forEach>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label>Description Selector</label>
                             <input type="text" name="descriptionSelector" class="form-control">
                         </div>
@@ -86,13 +97,15 @@
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="article-title"></h5>
+                                <h4 class="modal-title" id="article-title"></h4>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body" id="article-content">
-
+                            <div class="modal-body">
+                                <h5 id="article-description"></h5>
+                                <div id="article-content"></div>
+                                <p class="float-right"><b id="article-author"></b></p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-primary" id="btn-save">Save article</button>
@@ -106,10 +119,14 @@
                     // A $( document ).ready() block.
                     $(document).ready(function () {
                         $('#btn-preview').click(function () {
+                            alert($('select[name="categoryId"]').val())
                             var data = {
                                 "url": $('input[name="url"]').val(),
                                 "titleSelector": $('input[name="titleSelector"]').val(),
-                                "contentSelector": $('input[name="contentSelector"]').val()
+                                "descriptionSelector": $('input[name="descriptionSelector"]').val(),
+                                "contentSelector": $('input[name="contentSelector"]').val(),
+                                "authorSelector": $('input[name="authorSelector"]').val()
+
                             }
                             $.ajax({
                                 "url": "/admin/article/special-content",
@@ -117,7 +134,9 @@
                                 "data": JSON.stringify(data),
                                 "success": function (responseData) {
                                     $('#article-title').text(responseData.title);
+                                    $('#article-description').text(responseData.description);
                                     $('#article-content').html(responseData.content);
+                                    $('#article-author').text(responseData.author);
                                     $('#preview-modal').modal('show');
                                 },
                                 "error": function () {
@@ -129,7 +148,10 @@
                             var data = {
                                 "url": $('input[name="url"]').val(),
                                 "title": $('#article-title').text(),
-                                "content": $('#article-content').html()
+                                "categoryId": $('select[name="categoryId"]').val(),
+                                "description": $('#article-description').text(),
+                                "content": $('#article-content').html(),
+                                "author": $('#article-author').text()
                             }
                             $.ajax({
                                 "url": "/admin/article/save-special-content",

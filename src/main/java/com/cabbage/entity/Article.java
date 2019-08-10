@@ -79,12 +79,12 @@ public class Article {
         this.title = title;
     }
 
-    public Category getCategory() {
-        return category.get();
+    public Ref<Category> getCategory() {
+        return category;
     }
 
-    public void setCategory(Category category) {
-        this.category = Ref.create(category);
+    public void setCategory(Ref<Category> category) {
+        this.category = category;
     }
 
     public String getDescription() {
@@ -160,12 +160,13 @@ public class Article {
     }
 
     public static final class Builder {
-        Ref<Category> category;
         private Long id;
         private String url;
         private String title;
+        private Ref<Category> category;
         private String description;
         private String content;
+        private String thumbnail;
         private String author;
         private long createdAtMLS;
         private long updatedAtMLS;
@@ -194,6 +195,11 @@ public class Article {
             return this;
         }
 
+        public Builder withCategory(Ref<Category> category) {
+            this.category = category;
+            return this;
+        }
+
         public Builder withDescription(String description) {
             this.description = description;
             return this;
@@ -201,6 +207,11 @@ public class Article {
 
         public Builder withContent(String content) {
             this.content = content;
+            return this;
+        }
+
+        public Builder withThumbnail(String thumbnail) {
+            this.thumbnail = thumbnail;
             return this;
         }
 
@@ -229,18 +240,15 @@ public class Article {
             return this;
         }
 
-        public Builder withCategory(Ref<Category> category) {
-            this.category = category;
-            return this;
-        }
-
         public Article build() {
             Article article = new Article();
             article.setId(id);
             article.setUrl(url);
             article.setTitle(title);
+            article.setCategory(category);
             article.setDescription(description);
             article.setContent(content);
+            article.setThumbnail(thumbnail);
             article.setAuthor(author);
             article.setCreatedAtMLS(createdAtMLS);
             article.setUpdatedAtMLS(updatedAtMLS);
@@ -248,6 +256,5 @@ public class Article {
             article.setStatus(status);
             return article;
         }
-
     }
 }

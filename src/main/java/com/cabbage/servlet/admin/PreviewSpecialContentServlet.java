@@ -1,5 +1,6 @@
 package com.cabbage.servlet.admin;
 
+import com.cabbage.entity.Category;
 import com.cabbage.utils.StringUtil;
 import com.google.gson.Gson;
 import org.json.JSONObject;
@@ -14,13 +15,16 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.logging.Logger;
 
+import static com.googlecode.objectify.ObjectifyService.ofy;
+
 public class PreviewSpecialContentServlet extends HttpServlet {
 
     private static final Logger LOGGER = Logger.getLogger(PreviewSpecialContentServlet.class.getSimpleName());
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/admin/crawler-source/special-content.jsp").forward(req, resp);
+        req.setAttribute("categories", ofy().load().type(Category.class).list());
+        req.getRequestDispatcher("/admin/article/special-content.jsp").forward(req, resp);
     }
 
     @Override
