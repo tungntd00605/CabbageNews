@@ -156,6 +156,14 @@
         <servlet-name>ArticleServlet</servlet-name>
         <url-pattern>/article</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>com.quanganh9x.lettuce.servlet.client.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
     <!-- END CLIENT SERVLET-->
 
 
