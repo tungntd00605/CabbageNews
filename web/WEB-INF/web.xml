@@ -33,6 +33,17 @@
     <!-- END API SERVLET-->
 
     <!-- START ADMIN SERVLET-->
+
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>com.quanganh9x.lettuce.servlet.admin.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/admin/home</url-pattern>
+        <url-pattern>/admin/</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>AddCategoryServlet</servlet-name>
         <servlet-class>com.quanganh9x.lettuce.servlet.admin.AddCategoryServlet</servlet-class>
@@ -43,12 +54,71 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>AddArticleServlet</servlet-name>
+        <servlet-class>com.quanganh9x.lettuce.servlet.admin.AddArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddArticleServlet</servlet-name>
+        <url-pattern>/admin/article/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListArticelServlet</servlet-name>
+        <servlet-class>com.quanganh9x.lettuce.servlet.admin.ListArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListArticelServlet</servlet-name>
+        <url-pattern>/admin/article/list</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>AddCrawlerSourceServlet</servlet-name>
         <servlet-class>com.quanganh9x.lettuce.servlet.admin.AddCrawlerSourceServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddCrawlerSourceServlet</servlet-name>
         <url-pattern>/admin/crawler-source/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PreviewSpecialContentController</servlet-name>
+        <servlet-class>com.quanganh9x.lettuce.servlet.admin.PreviewSpecialContentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PreviewSpecialContentController</servlet-name>
+        <url-pattern>/admin/article/special-content</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SaveSpecialContentServlet</servlet-name>
+        <servlet-class>com.quanganh9x.lettuce.servlet.admin.SaveSpecialContentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveSpecialContentServlet</servlet-name>
+        <url-pattern>/admin/article/save-special-content</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EditArticleServlet</servlet-name>
+        <servlet-class>com.quanganh9x.lettuce.servlet.admin.EditArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditArticleServlet</servlet-name>
+        <url-pattern>/admin/article/edit-article</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteArticleServlet</servlet-name>
+        <servlet-class>com.quanganh9x.lettuce.servlet.admin.DeleteArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteArticleServlet</servlet-name>
+        <url-pattern>/admin/article/delete-article</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EditCategoryServlet</servlet-name>
+        <servlet-class>com.quanganh9x.lettuce.servlet.admin.EditCategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditCategoryServlet</servlet-name>
+        <url-pattern>/admin/category/edit-category</url-pattern>
     </servlet-mapping>
     <!-- END ADMIN SERVLET-->
 

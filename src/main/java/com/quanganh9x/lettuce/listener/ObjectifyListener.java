@@ -4,9 +4,6 @@ import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.datastore.DatastoreOptions;
 import com.googlecode.objectify.ObjectifyFactory;
 import com.googlecode.objectify.ObjectifyService;
-import com.quanganh9x.lettuce.entity.Article;
-import com.quanganh9x.lettuce.entity.Category;
-import com.quanganh9x.lettuce.entity.CrawlerSource;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

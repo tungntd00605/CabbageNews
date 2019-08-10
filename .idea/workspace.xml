@@ -7,37 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f7c31f-f320-4a2c-8821-c11650ed8e32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marquee.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lettuce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lettuce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/api/ArticleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/api/ArticleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/api/CheckDuplicateArticleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/api/CheckDuplicateArticleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/api/SourceAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/api/SourceAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/dto/ArticleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/dto/ArticleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/dto/CategoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/dto/CategoryDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/dto/CrawlerSourceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/dto/CrawlerSourceDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/entity/CrawlerSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/entity/CrawlerSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/filter/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/filter/CorsFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/filter/ObjectifyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/filter/ObjectifyFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/listener/ObjectifyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/listener/ObjectifyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/servlet/admin/AddCategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/servlet/admin/AddCategoryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/servlet/admin/AddCrawlerSourceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/servlet/admin/AddCrawlerSourceServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/servlet/client/ArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/servlet/client/ArticleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/servlet/client/CategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/servlet/client/CategoryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/servlet/client/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/servlet/client/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/servlet/client/widget/BoxCategoryWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/servlet/client/widget/BoxCategoryWidget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/marquee/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/listener/ObjectifyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/listener/ObjectifyListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/client/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/client/article.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/client/category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/client/category.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/client/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/client/home.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +28,7 @@
       <list>
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,36 +62,37 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564837344623" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/quanganh9x/lettuce/servlet" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\client" />
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\assets\js" />
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\assets" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cabbage.dto" />
     </key>
     <key name="CreateBuilderDialog.RecentsKey">
       <recent name="com.cabbage.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\GitHub\Lettuce\src\main\java\com\quanganh9x\lettuce\servlet" />
+      <recent name="D:\Projects\GitHub\Lettuce\web" />
+      <recent name="D:\Projects\GitHub\Lettuce\src\main\java\com\quanganh9x\lettuce\servlet\" />
+      <recent name="D:\Projects\GitHub\Lettuce\src\main\java\com\quanganh9x\lettuce\servlet\admin" />
       <recent name="D:\proj\CabbageNews\web\WEB-INF" />
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\admin" />
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\admin\category" />
-      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\src\main\java\com\cabbage" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cabbage.filter" />
       <recent name="com.cabbage.utils" />
       <recent name="com.cabbage.dto" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.cabbage.dto" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\client" />
+      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\assets\js" />
+      <recent name="C:\Users\HP ENVY\IdeaProjects\CabbageNews\web\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -130,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="Google App Engine Deployment.Google App Engine Deployment">
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -248,7 +225,7 @@
       <workItem from="1565360984786" duration="235000" />
       <workItem from="1565362063572" duration="602000" />
       <workItem from="1565363116381" duration="4774000" />
-      <workItem from="1565415479048" duration="6094000" />
+      <workItem from="1565415479048" duration="9008000" />
     </task>
     <servers />
   </component>
