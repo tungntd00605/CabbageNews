@@ -63,11 +63,11 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>ListArticelServlet</servlet-name>
+        <servlet-name>ListArticleServlet</servlet-name>
         <servlet-class>com.quanganh9x.lettuce.servlet.admin.ListArticleServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ListArticelServlet</servlet-name>
+        <servlet-name>ListArticleServlet</servlet-name>
         <url-pattern>/admin/article/list</url-pattern>
     </servlet-mapping>
 
