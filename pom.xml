@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.quanganh9x</groupId>
-    <artifactId>Marquee</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>Lettuce</artifactId>
+    <version>1.0.0</version>
 
     <packaging>war</packaging>
 
@@ -19,17 +19,12 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
+            <version>4.0.1</version>
         </dependency>
         <dependency>
-            <groupId>com.google.appengine</groupId>
-            <artifactId>appengine-api-1.0-sdk</artifactId>
-            <version>1.9.76</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.appengine</groupId>
-            <artifactId>appengine-endpoints</artifactId>
-            <version>1.9.76</version>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
         </dependency>
         <dependency>
             <groupId>com.googlecode.objectify</groupId>
@@ -42,9 +37,9 @@
             <version>2.8.5</version>
         </dependency>
         <dependency>
-            <groupId>jstl</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-datastore</artifactId>
+            <version>1.86.0</version>
         </dependency>
     </dependencies>
 
