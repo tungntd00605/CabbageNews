@@ -1,0 +1,300 @@
+.tbar {
+  background-color: #eee;
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+  font-size: 11px;
+  /*z-index: 99;*/
+  position: relative;
+}
+.tbar .myvne_container {
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.tbar ul {
+  height: 29px;
+}
+.tbar ul li {
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 29px;
+  padding: 0 5px;
+  border-left: 1px solid #ccc;
+}
+.tbar ul li:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+.tbar ul li a {
+  font-size: 13px;
+  display: inline-block;
+}
+.tbar ul li .ic-m-contact.phone {
+  float: left;
+  margin: 6px 3px 0 0;
+}
+.tbar .myvne_notification {
+  position: relative;
+  cursor: pointer;
+}
+.tbar .myvne_notification .badged {
+  position: absolute;
+  font-size: 9px;
+  padding: 2px;
+  line-height: 1;
+  background-color: #9f224e;
+  color: #fff;
+  top: 2px;
+  right: -7px;
+}
+.tbar .myvne_icon_bell {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+.tbar .myvne_contact {
+  float: left;
+}
+.tbar .myvne_contact li:nth-child(2) {
+  line-height: 31px;
+}
+.tbar .myvne_contact li:nth-child(2) i {
+  margin-top: -4px;
+  margin-right: 5px;
+}
+.tbar .myvne_form_log {
+  float: right;
+  font-size: 12px;
+}
+.tbar .myvne_form_log .myvne_user {
+  position: relative;
+}
+.tbar .block_search_web {
+  padding-right: 4px;
+  width: 176px;
+}
+.tbar .block_search_web .txt_input {
+  width: 150px !important;
+  float: left;
+  height: 23px !important;
+  margin-right: -1px;
+}
+.tbar .icon_seach_web {
+  background: #fff;
+  float: left;
+  height: 23px;
+  width: 23px;
+  border: 1px solid silver;
+  cursor: pointer;
+  font-size: 0;
+  line-height: 0;
+  margin-top: 3px;
+}
+.tbar .icon_seach_web .ic {
+  font-size: 12px;
+}
+.tbar .item_social {
+  margin-right: 5px;
+  margin-top: 4px !important;
+  line-height: 0;
+  display: inline-block;
+  float: left;
+}
+.tbar a.dk_nhantin {
+  line-height: 30px;
+}
+.tbar .icon_nhantin {
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  background-position: -452px -96px;
+  vertical-align: middle;
+  margin: -2px 5px 0 0;
+  text-align: center;
+  color: #9f224e;
+  line-height: 23px;
+}
+.tbar .myvne_avatar {
+  height: 100%;
+  padding-right: 15px;
+  width: 65px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.tbar .myvne_avatar:after {
+  content: "";
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid gray;
+  position: absolute;
+  top: 50%;
+  margin-top: -2.5px;
+  right: 0;
+}
+.tbar .myvne_avatar img {
+  position: absolute;
+  left: -30px;
+  top: 2px;
+}
+.tbar .myvne_user_status {
+  display: none;
+  z-index: 999;
+  position: absolute;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  top: 30px;
+  left: -32px;
+  min-width: 134px;
+  height: auto;
+}
+.tbar .myvne_user_status li {
+  padding: 8px 0;
+  width: 100%;
+  float: left;
+  box-sizing: inherit;
+  white-space: nowrap;
+  border: none;
+}
+.tbar .myvne_user_status li a {
+  line-height: 15px;
+  display: block;
+  float: left;
+  width: 90%;
+  float: left;
+  padding: 0 5%;
+}
+.tbar .myvne_content_notification {
+  display: none;
+  position: absolute;
+  width: 450px;
+  right: 0;
+  top: 30px;
+  z-index: 99;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  max-height: 370px;
+  overflow: auto;
+}
+.tbar .myvne_content_notification ul {
+  height: auto;
+}
+.tbar .myvne_content_notification ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  line-height: 15px;
+  width: 100%;
+}
+.tbar .myvne_content_notification .myvne_wrap_info {
+  overflow: hidden;
+  display: block;
+}
+.tbar .myvne_content_notification .myvne_time {
+  margin-top: 5px;
+}
+.tbar .myvne_notification-viewmore {
+  text-align: center;
+  font-size: 13px;
+  display: block;
+}
+.tbar i.ico {
+  background: url('https://s.vnecdn.net/vnexpress/restruct/c/v112/v2/pc/images/icons/icon_login_user.png') no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tbar i.ico.ico_comment {
+  width: 13px;
+  height: 11px;
+  background-position: -90px 0;
+}
+.myvne_thumb {
+  float: left;
+  margin-right: 10px;
+}
+#myvne_user_logged .block_search_web {
+  margin-right: 28px;
+  width: 146px;
+}
+#myvne_user_logged .block_search_web .txt_input {
+  width: 120px !important;
+}
+@media screen and (max-width: 979px) {
+  .tbar .myvne_contact, .tbar .block_search_web, .tbar .myvne_avatar span, .tbar .myvne_link {
+    display: none;
+  }
+  .logged .myvne_icon {
+    display: none !important;
+  }
+  .tbar {
+    position: absolute;
+    left: auto;
+    right: 0;
+    background-color: transparent;
+    height: 44px;
+    z-index: 99;
+  }
+  .tbar ul {
+    height: 44px;
+    border-left: 1px solid #ccc;
+  }
+  .tbar ul li {
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+  }
+  .tbar ul li a {
+    padding: 0 8px;
+  }
+  .tbar .myvne_avatar {
+    display: block;
+    background: none;
+    padding: 3px 0 0 7px;
+    line-height: 33px;
+    width: auto;
+  }
+  .tbar .myvne_avatar img {
+    position: relative;
+    left: auto;
+    top: auto;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+  .tbar .myvne_avatar:after {
+    content: none;
+  }
+  .tbar .myvne_user_status {
+    top: auto;
+    left: auto;
+    right: 0;
+    text-align: left;
+  }
+  .tbar .myvne_user_status li {
+    height: auto;
+  }
+  .tbar .myvne_notification i {
+    font-size: 20px;
+    padding: 0 5px;
+  }
+  .tbar .myvne_notification .badged {
+    right: 7px;
+  }
+  .tbar .myvne_content_notification {
+    right: 0;
+  }
+  .tbar .myvne_nofify_item {
+    height: auto !important;
+  }
+  .myvne_user {
+    text-align: center;
+    width: 35px;
+  }
+  i.ico.ico_user_myvne {
+    width: 16px;
+    height: 20px;
+    background-position: -30px -120px !important;
+  }
+}

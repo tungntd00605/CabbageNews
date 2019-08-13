@@ -6,7 +6,8 @@
             %>
 
         <title>${param.title}</title>
-        <meta charset="utf-8">
+                <link type="image/x-icon" href="https://timkiem.vnexpress.net/favicon.ico" rel="shortcut icon" />
+                <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=100"/>
         <link rel="canonical"
         href="${url}"/>
@@ -74,6 +75,7 @@
         <meta name="its_type" content="text"/>
         <link rel="stylesheet" type="text/css" href="https://s.vnecdn.net/vnexpress/restruct/c/v112/v2/pc/general.css"
         media="all">
+        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/taskbar.css"/>
         <link rel="stylesheet" type="text/css" href="https://s.vnecdn.net/myvne/c/v18/ls/myvne_2019.css" media="all">
 
         <script>var site_id=1000000,SITE_ID=1000000,PAGE_FOLDER=1000000,PAGE_DETAIL=0,parser_autoplay=0,PageHot=0;if(typeof(PAGE_FOLDER)=="undefined"){var PAGE_FOLDER;}if(PAGE_FOLDER==1000000){var _siteId="6";}else{var _siteId="5";}</script>

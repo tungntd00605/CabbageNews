@@ -19,45 +19,7 @@
 </head>
 
 <body data-checkpage="1">
-<div id="myvne_taskbar" class="myvne_taskbar_v2">
-    <div class="myvne_container">
-        <ul class="myvne_contact">
-            <li style="white-space: nowrap;"><span class="timer">Thứ bảy, 10/8/2019, 10:53 (GMT+7)</span></li>
-            <li><a href="https://vnexpress.net/24h-qua" title="">24h qua</a></li>
-            <li><a href="https://vnexpress.net/rss">RSS</a></li>
-            <li>
-                <div class="item_social" style="margin-top:6px;" id="myvne_fb_like">
-                    <iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=https://www.facebook.com/congdongvnexpress&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=283547481836738"
-                            scrolling="no" frameborder="0"
-                            style="border:none; overflow:hidden; height:21px; width:50px;"
-                            allowtransparency="true"></iframe>
-                </div>
-                <div class="item_social" style="margin-top:6px;" id="myvne_fb_twitter">
-                    <iframe src="//platform.twitter.com/widgets/follow_button.html?screen_name=VnEnews"
-                            style="width: 60px; height: 20px;" allowtransparency="true" frameborder="0"
-                            scrolling="no"></iframe>
-                </div>
-            </li>
-        </ul>
-        <ul class="myvne_form_log">
-            <li class="block_search_web">
-                <div class="left">
-                    <div id="search"><input type="text" class="txt_input" id="inp_keyword" name="q"
-                                            placeholder="Tìm kiếm">
-                        <button type="submit" class="icon_seach_web"><i class="ic ic-search"></i></button>
-                    </div>
-                </div>
-            </li>
-            <li class="myvne_user"><a href="javascript:void(0);" class="myvne_link myvne_login_button">Đăng nhập</a> <a
-                    href="javascript:void(0);" class="myvne_icon myvne_login_button"><i class="ico ico_user_myvne"></i></a>
-            </li>
-            <li class="myvne_notification"><a class="myvne_link myvne_register_button myvne_link_create"
-                                              href="javascript:void(0);" id="myvne_register_button">Tạo tài khoản</a>
-            </li>
-        </ul>
-        <div class="clear"></div>
-    </div>
-</div>
+<c:import url="layout/taskbar.jsp" charEncoding="UTF-8"/>
 <!-- end taskbar -->
 <header class="p_header">
     <div class="logo_vne container clearfix">
@@ -113,7 +75,7 @@
          data-component-page-config='{"article_id":"3964246"}'>
     <!--wrap_sidebar_12-->
     <section class="wrap_sidebar_12">
-        <section class="sidebar_1">
+        <section class="sidebar_1" style="width: 690px;">
             <header class="clearfix">
                 <span class="time left">Thứ năm, 8/8/2019, 17:42 (GMT+7)</span>
                 <div class="block_share right">

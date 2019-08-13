@@ -6,6 +6,7 @@
     <c:import url="layout/header.jsp" charEncoding="UTF-8">
         <c:param name="title" value="CabbageNews - Search"/>
     </c:import>
+    <link rel="stylesheet" type="text/css" href="https://s.vnecdn.net/vnexpress/restruct/c/v3/search/search.css"/>
     <style type="text/css">
         #search_page .title_news a.txt_link label {
             cursor: pointer;
@@ -17,7 +18,7 @@
     </style>
 </head>
 <body>
-<div id="myvne_taskbar"></div>
+<c:import url="layout/taskbar.jsp" charEncoding="UTF-8"/>
 <header class="p_header">
     <div class="logo_vne container clearfix">
         <a href="https://vnexpress.net"><img src="https://s.vnecdn.net/vnexpress/restruct/i/v1/search/graphics/img_logo_vne_web.gif" alt=""  class="left logo_web"/></a>
@@ -40,24 +41,33 @@
         </a>
     </div>
     <ul class="breadcrumb left">
-        <li class="start"><h4><a href="https://timkiem.vnexpress.net">Tìm kiếm</a></h4></li>
+        <li class="start"><h4><a href="${pageContext.request.contextPath}/search">Tìm kiếm</a></h4></li>
     </ul>
 </section>
 <div id="search_page">
     <section class="container page_search">
-        <form class="wrap_form width_common" action="/search" name="frmSearch" method="get">
+        <form class="wrap_form width_common" action="${pageContext.request.contextPath}/search" name="frmSearch" method="get">
             <p class="title">Nội dung tìm kiếm</p>
             <div class="form_search">
                 <div class="wrap_txtsearch">
-                    <input type="text" class="txt-search input_form" value="" id="search_q" name="what">
+                    <select name="time">
+                        <option selected value="365">Tất cả</option>
+                        <option value="0">Hôm nay</option>
+                        <option value="7">Tuần trước</option>
+                        <option value="30">Tháng trước</option>
+                    </select>
+
+                    <input type="text" class="txt-search input_form" value="" name="query">
 
                     <button class="btn_vne">Tìm kiếm</button>
                 </div>
             </div>
-            <a href="#notice-popup" class="hd_search guide_search open-popup-link">Hướng dẫn</a>
         </form>
     </section>
     <section class="container page_search">
+        <section class="sidebar_1">
+            <p class="title">Kết quả: <b>${arcSize}</b> kết quả</p>
+        </section>
         <section class="sidebar_2 result_filter">
         <div class="key_search">
         </div>
@@ -70,9 +80,16 @@
                     </div>
                     <h3 class="title_news">
                         <a target="_blank" href="/article?arcId=${article.id}" title="${article.title}" alt="${article.title}" class="txt_link">${article.title}</a>
-                        <img src="${article.thumbnail}" alt="" class="icon_content icon_title_0">            </h3>
+                        </h3>
                     <h4 class="description">
-                        ${article.description}
+                        <c:choose>
+                            <c:when test="${article.description != null && article.description.length() > 100}">
+                                ${article.description.substring(0, 100)}
+                            </c:when>
+                            <c:otherwise>
+                                ${article.description}
+                            </c:otherwise>
+                        </c:choose>
                     </h4>
                 </article>
             </c:forEach>

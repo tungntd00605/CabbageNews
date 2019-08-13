@@ -12,6 +12,25 @@ import java.util.Calendar;
 
 @Entity
 public class Article {
+    @Override
+    public String toString() {
+        return "Article{" +
+                "id=" + id +
+                ", url='" + url + '\'' +
+                ", title='" + title + '\'' +
+                ", category=" + category +
+                ", description='" + description + '\'' +
+                ", content='" + content + '\'' +
+                ", thumbnail='" + thumbnail + '\'' +
+                ", author='" + author + '\'' +
+                ", crawlerSource=" + crawlerSource +
+                ", createdAtMLS=" + createdAtMLS +
+                ", updatedAtMLS=" + updatedAtMLS +
+                ", deletedAtMLS=" + deletedAtMLS +
+                ", status=" + status +
+                '}';
+    }
+
     @Id
     private Long id;
     @Index
